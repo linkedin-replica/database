@@ -1,0 +1,17 @@
+{
+  "jobID":"Integer",
+  "industryType":"String",
+  "employmentType":"String",
+  "jobFunctions":"String",
+  "positionName":"String",
+  "professionLevel":"String",
+  "companyID":"Number",
+  "companyName":"String",
+  "companyLocation":"String",
+  "compnayPicture":"URL/String",
+  "relatedConnections":[{},{}],
+  "jobBrief":"String",
+  "requiredSkills":["String","String"],
+  "note":"String",
+  "similarJobs":[{},{},{}]
+}
