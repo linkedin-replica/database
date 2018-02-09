@@ -1,0 +1,15 @@
+{
+    "title": "POST post comment",
+    "description": "post a comment to a post",
+    "url": "http://localhost/api/post-comment",
+    "method": "POST",
+    "request": {
+        "data": {
+            "post_id": 472,
+            "comment_text": "Text for comment"
+        }
+    },
+    "response": {
+        "status_code": "201"
+    }
+}
