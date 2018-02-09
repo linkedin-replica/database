@@ -1,0 +1,14 @@
+{
+    "title": "POST like a post",
+    "description": "like a post",
+    "url": "http://localhost/api/like-post",
+    "method": "POST",
+    "request": {
+        "data": {
+            "post_id": "Number"
+        }
+    },
+    "response": {
+        "status_code": "201"
+    }
+}

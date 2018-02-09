@@ -1,0 +1,16 @@
+{
+    "title": "POST reply to a comment",
+    "description": "post a reply to a comment",
+    "url": "http://localhost/api/post-reply-comment",
+    "method": "POST",
+    "request": {
+        "data": {
+            "post_id": "Number",
+            "comment_id": "Number",
+            "reply_text": "String"
+        }
+    },
+    "response": {
+        "status_code": "201"
+    }
+}

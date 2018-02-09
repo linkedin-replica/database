@@ -5,8 +5,8 @@
     "method": "POST",
     "request": {
         "data": {
-            "post_id": 472,
-            "comment_text": "Text for comment"
+            "post_id": "Number",
+            "comment_text": "String"
         }
     },
     "response": {
