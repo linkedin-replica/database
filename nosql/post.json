@@ -1,0 +1,19 @@
+{
+  "post_id": "Number",
+  "author_id": "Number",
+  "type": "String",
+  "privacy": "String",
+  "text": "String",
+  "hashtags": ["String"],
+  "mentions": ["Number"],
+  "likes": ["Number"],
+  "media": {
+    "images": ["Url"],
+    "videos": ["Url"],
+    "urls": ["Url"]
+  },
+  "comments": ["Number"],
+  "shares": ["Number"],
+  "timestamp": "String"
+
+}
