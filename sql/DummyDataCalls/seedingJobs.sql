@@ -1,0 +1,22 @@
+-- Inserting jobs
+CALL Insert_Job('Php Developer', 1);
+CALL Insert_Job('IT Manager', 1);
+CALL Insert_Job('Node Developer', 1);
+CALL Insert_Job('Communication Engineer', 3);
+CALL Insert_Job('Software Engineer', 2);
+CALL Insert_Job('Project Manager', 1);
+CALL Insert_Job('Front End Developer', 3);
+CALL Insert_Job('Driver', 15);
+CALL Insert_Job('Driver', 14);
+CALL Insert_Job('Driver', 13);
+CALL Insert_Job('Photographer', 6);
+CALL Insert_Job('HR', 2);
+CALL Insert_Job('Consultant', 10);
+CALL Insert_Job('Software Intern', 2);
+CALL Insert_Job('Database Admin', 3);
+CALL Insert_Job('Junior Java Developer', 3);
+CALL Insert_Job('Senior Mobile Developer',4);
+CALL Insert_Job('IT Engineer',13);
+CALL Insert_Job('Senior Android Developer',12);
+CALL Insert_Job('Data Analyst',1);
+CALL Insert_Job('Research Engineer',1);

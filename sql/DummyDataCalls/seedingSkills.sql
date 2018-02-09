@@ -1,0 +1,22 @@
+-- Inserting skills
+Call Insert_Skill('English', 'SoftSkills');
+Call Insert_Skill('German', 'SoftSkills');
+Call Insert_Skill('Spanish', 'SoftSkills');
+Call Insert_Skill('Good Communication', 'SoftSkills');
+Call Insert_Skill('Java', 'TechnicalSkills');
+Call Insert_Skill('Php', 'TechnicalSkills');
+Call Insert_Skill('IOS', 'TechnicalSkills');
+Call Insert_Skill('Android', 'TechnicalSkills');
+Call Insert_Skill('Python', 'TechnicalSkills');
+Call Insert_Skill('C++', 'TechnicalSkills');
+Call Insert_Skill('C', 'TechnicalSkills');
+Call Insert_Skill('Html/Css', 'TechnicalSkills');
+Call Insert_Skill('Javascript', 'TechnicalSkills');
+Call Insert_Skill('MongoDB', 'TechnicalSkills');
+Call Insert_Skill('SQL', 'TechnicalSkills');
+Call Insert_Skill('Nodejs', 'TechnicalSkills');
+Call Insert_Skill('Presentation', 'SoftSkills');
+Call Insert_Skill('Leadership', 'SoftSkills');
+Call Insert_Skill('Team Work', 'SoftSkills');
+Call Insert_Skill('Angular', 'TechnicalSkills');
+Call Insert_Skill('Machine Learning', 'TechnicalSkills');
