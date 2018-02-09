@@ -54,6 +54,7 @@ CREATE TABLE IF NOT EXISTS job_requires_skill(
 CREATE TABLE IF NOT EXISTS user_applied_for_job(
   user_id int,
   job_id int,
+  status tinyint,
 
   FOREIGN KEY (user_id) REFERENCES users(id),
   FOREIGN KEY (job_id) REFERENCES jobs(id),
