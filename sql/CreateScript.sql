@@ -41,7 +41,7 @@ CREATE TABLE IF NOT EXISTS user_has_skill(
   PRIMARY KEY (user_id, skill_id)
 );
 
-CREATE TABLE IF NOT EXISTS job_needs_skill(
+CREATE TABLE IF NOT EXISTS job_requires_skill(
   job_id int NOT NULL,
   skill_id int NOT NULL,
   FOREIGN KEY (job_id) REFERENCES jobs(id),
@@ -51,7 +51,7 @@ CREATE TABLE IF NOT EXISTS job_needs_skill(
 );
 
 
-CREATE TABLE IF NOT EXISTS user_apply_for_job(
+CREATE TABLE IF NOT EXISTS user_applied_for_job(
   user_id int,
   job_id int,
 
@@ -61,7 +61,18 @@ CREATE TABLE IF NOT EXISTS user_apply_for_job(
   PRIMARY KEY (user_id, job_id)
 );
 
-CREATE TABLE IF NOT EXISTS user_blocks_user(
+
+CREATE TABLE IF NOT EXISTS user_saved_job(
+  user_id int,
+  job_id int,
+
+  FOREIGN KEY (user_id) REFERENCES users(id),
+  FOREIGN KEY (job_id) REFERENCES jobs(id),
+
+  PRIMARY KEY (user_id, job_id)
+);
+
+CREATE TABLE IF NOT EXISTS user_blocked_user(
   blocking_user_id int,
   blocked_user_id int,
 
@@ -71,10 +82,11 @@ CREATE TABLE IF NOT EXISTS user_blocks_user(
   PRIMARY KEY (blocking_user_id, blocked_user_id)
 );
 
-CREATE TABLE IF NOT EXISTS user_friend_with_user(
+CREATE TABLE IF NOT EXISTS user_friends_with_user(
   user1_id int,
   user2_id int,
-
+  is_accepted bit(1),
+  
   FOREIGN KEY (user1_id) REFERENCES users(id),
   FOREIGN KEY (user2_id) REFERENCES users(id),
 
