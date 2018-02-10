@@ -1,0 +1,19 @@
+{
+    "request": {
+        "title": "GET friend recommendations",
+        "description": "get friend recommendations",
+        "url": "http://localhost/api/friendRecommendation/:userID",
+        "method": "GET",
+    },
+    "response": {
+        "status_code": "Number",
+        "body":[
+            {
+                "userID": "Number",
+                "firstName": "String",
+                "lastName": "String",
+                "currentPostion": "String",
+                "profilePictureURL": "String"
+            }
+        ]
+}
