@@ -5,8 +5,8 @@
     "url": "http://localhost/api/comment",
     "method": "POST",
     "data": {
-      "id": "Number",
-      "parenPost": "Number",
+      "authorId": "Number",
+      "postId": "Number",
       "text": "String",
       "media": {
         "images": ["String"],
