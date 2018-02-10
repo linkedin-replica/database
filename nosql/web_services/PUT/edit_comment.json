@@ -1,25 +1,25 @@
 {
-    "request": {
-        "title": "PUT edit comment",
-        "description": "edit a comment of a certain post",
-        "url": "http://localhost/api/comment",
-        "method": "PUT",
-        "data": {
-	        "comment_id":"Number",
-            "author_id": "Number",
-            "parent_post": "Number",
-            "mentions": ["Number"],
-            "likes": ["Number"],
-            "media": {
-                "images": ["Url"],
-                "urls": ["Url"]
-            },
-            "replies": ["Number"],
-            "text": "String",
-            "timestamp": "String"
-        },
-        "response": {
-            "status_code": "number"
-        }
+  "request": {
+    "title": "PUT edit comment",
+    "description": "edit a comment of a certain post",
+    "url": "http://localhost/api/comment",
+    "method": "PUT",
+    "data": {
+      "commentId":"Number",
+      "authorId": "Number",
+      "parentPostId": "Number",
+      "mentions": ["Number"],
+      "likesCount": "Number",
+      "media": {
+        "images": ["String"],
+        "urls": ["String"]
+      },
+      "repliesCount": "Number",
+      "text": "String",
+      "timestamp": "String"
+    },
+    "response": {
+      "code": "Number"
     }
+  }
 }

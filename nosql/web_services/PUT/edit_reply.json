@@ -1,25 +1,25 @@
 {
-    "request": {
-        "title": "PUT edit reply",
-        "description": "edit a reply of a certain comment",
-        "url": "http://localhost/api/reply",
-        "method": "PUT",
-        "data": {
-            "reply_id":"Number",
-            "author_id": "Number",
-            "parent_post": "Number",
-            "parent_comment": "Number",
-            "mentions": ["Number"],
-            "likes": ["Number"],
-            "media": {
-                "images": ["Url"],
-                "urls": ["Url"]
-            },
-            "text": "String",
-            "timestamp": "String"
-        },
-        "response": {
-            "status_code": "number"
-        }
+  "request": {
+    "title": "PUT edit reply",
+    "description": "edit a reply of a certain comment",
+    "url": "http://localhost/api/reply",
+    "method": "PUT",
+    "data": {
+      "replyId":"Number",
+      "authorId": "Number",
+      "parentPostId": "Number",
+      "parentCommentId": "Number",
+      "mentions": ["Number"],
+      "likesCount": "Number",
+      "media": {
+        "images": ["String"],
+        "urls": ["String"]
+      },
+      "text": "String",
+      "timestamp": "String"
+    },
+    "response": {
+      "code": "Number"
     }
+  }
 }
