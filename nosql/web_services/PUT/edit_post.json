@@ -1,0 +1,29 @@
+{
+    "request": {
+        "title": "PUT edit post",
+        "description": "edit a post",
+        "url": "http://localhost/api/edit-post",
+        "method": "PUT",
+        "data": {
+	        "post_id": "Number",
+            "author_id": "Number",
+            "type": "String",
+            "privacy": "String",
+            "text": "String",
+            "hashtags": ["String"],
+            "mentions": ["Number"],
+            "likes": ["Number"],
+            "media": {
+                "images": ["Url"],
+                "videos": ["Url"],
+                "urls": ["Url"]
+            },
+            "comments": ["Number"],
+            "shares": ["Number"],
+            "timestamp": "String"
+        }
+    },
+    "response": {
+        "status_code": "number"
+    }
+}
