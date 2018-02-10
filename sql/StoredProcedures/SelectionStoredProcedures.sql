@@ -19,7 +19,7 @@ DELIMITER ;
 
 DROP procedure IF EXISTS `search_for_user_by_skill`;
 DELIMITER $$
-CREATE DEFINER=`root`@`localhost` PROCEDURE `search_for_user_by_skill`(skill_id_in int)
+CREATE PROCEDURE `search_for_user_by_skill`(skill_id_in int)
 BEGIN
     SELECT * FROM user_has_skill WHERE skill_id = skill_id_in;
 END$$
