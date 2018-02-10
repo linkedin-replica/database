@@ -1,14 +1,14 @@
 {
-  "comment_id":"Number",
-  "author_id": "Number",
-  "parent_post": "Number",
+  "commentId":"Number",
+  "authorId": "Number",
+  "parentPostId": "Number",
   "mentions": ["Number"],
-  "likes": ["Number"],
+  "likesCount": "Number",
   "media": {
-    "images": ["Url"],
-    "urls": ["Url"]
+    "images": ["String"],
+    "urls": ["String"]
   },
-  "replies": ["Number"],
+  "repliesCount": "Number",
   "text": "String",
   "timestamp": "String"
 }

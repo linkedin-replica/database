@@ -1,0 +1,7 @@
+{
+  "likeId": "Number",
+  "likerId": "Number",
+  "username": "String",
+  "headline": "String", 
+  "imageUrl": "String"
+}

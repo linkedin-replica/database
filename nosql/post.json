@@ -1,18 +1,23 @@
 {
-  "post_id": "Number",
-  "author_id": "Number",
+  "postId": "Number",
+  "authorId": "Number",
   "type": "String",
+  "isCompanyPost": "Boolean",
+  "company":{
+    "companyId": "Number",
+    "isPrior": "Boolean"
+  },  
   "privacy": "String",
   "text": "String",
   "hashtags": ["String"],
   "mentions": ["Number"],
-  "likes": ["Number"],
+  "likesCount": "Number",
   "media": {
-    "images": ["Url"],
-    "videos": ["Url"],
-    "urls": ["Url"]
+    "images": ["String"],
+    "videos": ["String"],
+    "urls": ["String"]
   },
-  "comments": ["Number"],
+  "commentsCount": "Number",
   "shares": ["Number"],
   "timestamp": "String"
 
