@@ -1,0 +1,14 @@
+{
+    "title": "POST accept friend request",
+    "description": "Accept friend request from onther user",
+    "url": "http://localhost/api/accept-friend-request",
+    "method": "POST",
+    "request": {
+        "data": {
+            "user_id": "Number"
+        }
+    },
+    "response": {
+        "status_code": "number"
+    }
+}
