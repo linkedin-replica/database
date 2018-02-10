@@ -11,7 +11,7 @@
   "compnayPicture":"String",
   "relatedConnections":[{"userID":"Number","firstName":"String","lastName":"String","currentPostion":"String","profilePictureURL":"String"}],
   "jobBrief":"String",
-  "requiredSkills":[{"skillID":"Number","skillName":"String"}],
+  "requiredSkills":["String"],
   "note":"String",
   "similarJobs":[{"jobID":"Number","positionName":"String","companyName":"String","companyID":"String","companyProfilePictureURL":"String"}]
 }
