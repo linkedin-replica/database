@@ -1,0 +1,19 @@
+{
+    "request": {
+        "title": "GET notifications",
+        "description": "get notifications of a specific user",
+        "url": "http://localhost/api/search/:userID",
+        "method": "GET",
+    },
+    "response": {
+        "status_code": "number",
+        "body":[{
+
+          	"notification-text" : "string",
+          	"notification-id" : "number",
+          	"time" : "string",
+          	"link" : "string",
+          	"read" : "boolean"
+
+    }]
+}

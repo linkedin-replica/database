@@ -1,0 +1,31 @@
+{
+    "request": {
+        "title": "PUT edit a company profile",
+        "description": "edit company profile",
+        "url": "http://localhost/api/company/edit",
+        "method": "PUT",
+        "data": {
+  "companyName":"String",
+  "companyID":"Number",
+  "companyProfilePicture":"String/URL",
+  "adminUserName":"String",
+  "adminUserID":"Number",
+  "adminUserIDMongo":"Number",
+  "industryType":"String",
+  "companyLocation":"String",
+  "relatedConnections":[{"userID":"Number","firstName":"String","lastName":"String","currentPostion":"String","profilePictureURL":"String"}],
+  "aboutUs":"String",
+  "website":"String/URL",
+  "yearFounded":"Date",
+  "headquarters":["String"],
+  "companytype":"String",
+  "companySize":"Integer",
+  "specialities":["String"],
+  "posts":[{"postID":"Number","authorID":"Number","media":{"images": ["String"],"videos": ["String"],"urls": ["String"]}}],
+  "jobListings":[{"jobID":"Number","positionName":"String","companyName":"String","companyID":"String","companyProfilePictureURL":"String"}]
+}
+    },
+    "response": {
+        "status_code": "number"
+    }
+}
