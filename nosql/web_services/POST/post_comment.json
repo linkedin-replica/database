@@ -5,13 +5,14 @@
     "url": "http://localhost/api/comment",
     "method": "POST",
     "data": {
-      "authorId": "Number",
+      "id": "Number",
       "parenPost": "Number",
       "text": "String",
       "media": {
-              "images": ["Url"],
-              "urls": ["Url"]
-            }
+        "images": ["String"],
+        "videos": ["String"],
+        "urls": ["String"]
+      }
     }
   },
   "response": {
