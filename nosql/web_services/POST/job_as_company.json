@@ -1,0 +1,25 @@
+{
+    "title": "POST create company",
+    "description": "create a company",
+    "url": "http://localhost/api/company/create",
+    "method": "POST",
+    "request": {
+        "data": {
+            "industryType":"String",
+            "employmentType":"String",
+            "jobFunctions":"String",
+            "positionName":"String",
+            "professionLevel":"String",
+            "companyID":"Number",
+            "companyName":"String",
+            "companyLocation":"String",
+            "compnayPicture":"URL/String",
+            "jobBrief":"String",
+            "requiredSkills":["String","String"],
+            "note":"String",
+        }
+    },
+    "response": {
+        "status_code": "201"
+    }
+}
