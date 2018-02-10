@@ -9,6 +9,7 @@
 	        "first-name": "String",
 	        "last-name": "String",
             "maiden-name": "String",
+            "currentPostion":"String",
             "location": {"name": "String", "country-code": "String"},
 	        "industry": {"name": "String", "code": "Number"},
 	        "num-connections": "Number",
