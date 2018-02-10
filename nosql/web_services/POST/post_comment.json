@@ -1,15 +1,20 @@
 {
+  "request": {
     "title": "POST post comment",
     "description": "post a comment to a post",
-    "url": "http://localhost/api/post-comment",
+    "url": "http://localhost/api/comment",
     "method": "POST",
-    "request": {
-        "data": {
-            "post_id": "Number",
-            "comment_text": "String"
-        }
-    },
-    "response": {
-        "status_code": "201"
+    "data": {
+      "authorId": "Number",
+      "parenPost": "Number",
+      "text": "String",
+      "media": {
+              "images": ["Url"],
+              "urls": ["Url"]
+            }
     }
+  },
+  "response": {
+    "code": "Number"
+  }
 }
