@@ -16,19 +16,17 @@
   "adminUserIDMongo":"Number",
   "industryType":"String",
   "companyLocation":"String",
-  "relatedConnections":[{},{},{}],
+  "relatedConnections":[{"userID":"Number","firstName":"String","lastName":"String","currentPostion":"String","profilePictureURL":"String"}],
   "aboutUs":"String",
-  "recentUpdates":[{},{},{}],
   "website":"String/URL",
   "yearFounded":"Date",
   "headquarters":["String","string","string"],
   "companytype":"String",
   "companySize":"Integer",
   "specialities":["String","String","String"],
-  "affiliatedCompanies""[{},{},{}],
-  "showcasePages":[{},{},{}],
-  "posts":[{},{},{}],
-  "jobListings":[{},{},{}]
+  "affiliatedCompanies":[{"companyName":"String","companyID":"Number","companyProfilePicture":"String/URL"}],
+  "posts":[{"postID":"Number","authorID":"Number","media":{"images": ["String"],"videos": ["String"],"urls": ["String"]}}],
+  "jobListings":[{"jobID":"Number","positionName":"String","companyName":"String","companyID":"String","companyProfilePictureURL":"String"}]
 }
 }
 }
