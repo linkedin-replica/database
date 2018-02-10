@@ -17,7 +17,5 @@ headquarters is a list of strings of the heafquarters locations.
 companytype is  string that represents the main industry of this company.
 companySize is an integer that represents how many employees in this company.
 specialities is a list of company specialities.
-affiliatedCompanies is a list of childreen companies to this company.
-showcasePages is a list of pages created by this company.
 posts is list of posts created by this company.
 jobListings is list of jobs offers posted by this company.
