@@ -1,5 +1,5 @@
 {
-  "jobID":"Integer",
+  "jobID":"Number",
   "industryType":"String",
   "employmentType":"String",
   "jobFunctions":"String",
@@ -8,10 +8,10 @@
   "companyID":"Number",
   "companyName":"String",
   "companyLocation":"String",
-  "compnayPicture":"URL/String",
-  "relatedConnections":[{},{}],
+  "compnayPicture":"String",
+  "relatedConnections":[{"userID":"Number","firstName":"String","lastName":"String","currentPostion":"String","profilePictureURL":"String"}],
   "jobBrief":"String",
-  "requiredSkills":["String","String"],
+  "requiredSkills":[{"skillID":"Number","skillName":"String"}],
   "note":"String",
-  "similarJobs":[{},{},{}]
+  "similarJobs":[{"jobID":"Number","positionName":"String","companyName":"String","companyID":"String","companyProfilePictureURL":"String"}]
 }

@@ -7,9 +7,9 @@ jobFunctions  profession everyday functions.
 companyName is a string that tells the company name.
 companyID is a number that refrences the company posting the job.
 companyLocation is a string that represents a city and a country.
-compnayPicture is url that refrences this picture in the media server.
+companyPicture is url that refrences this picture in the media server.
 relatedConnections is list of IDs for corresponding connections working in this compnany.
 job Brief is a small text describing the job.
-requiredSkills is list of string describing the requiredSkills for this job postion.
+requiredSkills is list of string and IDs describing the requiredSkills for this job postion.
 note is an extra string if the company required to leave a note.
 similarJobs is a list of IDS, name, companies for the similar jobs if exists.
