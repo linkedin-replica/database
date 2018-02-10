@@ -1,0 +1,19 @@
+{
+    "request": {
+        "title": "GET search request",
+        "description": "search for a job, people, Content, Companies, Groups or school",
+        "url": "http://localhost/api/search/:name/:location",
+        "method": "GET",
+    },
+    "response": {
+        "status_code": "number",
+        "body":[
+          {"people":[]},
+          {"jobs":[]},
+          {"content":[]},
+          {"companies":[]},
+          {"groups":[]},
+          {"schools":[]}
+        ]
+    }
+}
