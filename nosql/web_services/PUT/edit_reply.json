@@ -1,20 +1,20 @@
 {
     "request": {
-        "title": "PUT edit comment",
-        "description": "edit a comment of a certain post",
-        "url": "http://localhost/api/comment",
+        "title": "PUT edit reply",
+        "description": "edit a reply of a certain comment",
+        "url": "http://localhost/api/reply",
         "method": "PUT",
         "data": {
-	        "comment_id":"Number",
+            "reply_id":"Number",
             "author_id": "Number",
             "parent_post": "Number",
+            "parent_comment": "Number",
             "mentions": ["Number"],
             "likes": ["Number"],
             "media": {
                 "images": ["Url"],
                 "urls": ["Url"]
             },
-            "replies": ["Number"],
             "text": "String",
             "timestamp": "String"
         },

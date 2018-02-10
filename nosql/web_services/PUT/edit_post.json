@@ -2,7 +2,7 @@
     "request": {
         "title": "PUT edit post",
         "description": "edit a post",
-        "url": "http://localhost/api/edit-post",
+        "url": "http://localhost/api/post",
         "method": "PUT",
         "data": {
 	        "post_id": "Number",
