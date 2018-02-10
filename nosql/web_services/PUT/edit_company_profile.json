@@ -17,10 +17,10 @@
   "aboutUs":"String",
   "website":"String/URL",
   "yearFounded":"Date",
-  "headquarters":["String","string","string"],
+  "headquarters":["String"],
   "companytype":"String",
   "companySize":"Integer",
-  "specialities":["String","String","String"],
+  "specialities":["String"],
   "posts":[{"postID":"Number","authorID":"Number","media":{"images": ["String"],"videos": ["String"],"urls": ["String"]}}],
   "jobListings":[{"jobID":"Number","positionName":"String","companyName":"String","companyID":"String","companyProfilePictureURL":"String"}]
 }

@@ -15,7 +15,7 @@
             "companyLocation":"String",
             "compnayPicture":"URL/String",
             "jobBrief":"String",
-            "requiredSkills":["String","String"],
+            "requiredSkills":["String"],
             "note":"String",
         }
     },
