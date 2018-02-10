@@ -1,5 +1,5 @@
 {
-  "jobID":"Integer",
+  "jobID":"Number",
   "industryType":"String",
   "employmentType":"String",
   "jobFunctions":"String",
