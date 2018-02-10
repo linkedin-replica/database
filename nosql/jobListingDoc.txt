@@ -1,0 +1,15 @@
+The job listing object represent an object that is posted by the recruiting company.
+the First attribute is the job ID. It refrence this object in  the SQL Database to guarentee consistency.
+employmentType is the type of employment is it full time or part time.
+industryType can differ from medical to engineering, managerial etc...
+professionLevel is it entrylevel or senior level.
+jobFunctions  profession everyday functions.
+companyName is a string that tells the company name.
+companyID is a number that refrences the company posting the job.
+companyLocation is a string that represents a city and a country.
+compnayPicture is url that refrences this picture in the media server.
+relatedConnections is list of IDs for corresponding connections working in this compnany.
+job Brief is a small text describing the job.
+requiredSkills is list of string describing the requiredSkills for this job postion.
+note is an extra string if the company required to leave a note.
+similarJobs is a list of IDS, name, companies for the similar jobs if exists.
