@@ -2,28 +2,27 @@
     "request": {
         "title": "GET job listing",
         "description": "return a job post information",
-        "url": "http://localhost/api/jobs/:userID",
+        "url": "http://localhost/api/jobs/:jobID",
         "method": "GET",
     },
     "response": {
         "status_code": "number",
-        "body":[{
-  "jobID":"Integer",
-  "industryType":"String",
-  "employmentType":"String",
-  "jobFunctions":"String",
-  "positionName":"String",
-  "professionLevel":"String",
-  "companyID":"Number",
-  "companyName":"String",
-  "companyLocation":"String",
-  "compnayPicture":"URL/String",
-  "relatedConnections":[{"userID":"Number","firstName":"String","lastName":"String","currentPostion":"String","profilePictureURL":"String"}],
-  "jobBrief":"String",
-  "requiredSkills":["String","String"],
-  "note":"String",
-  "similarJobs":[{"jobID":"Number","positionName":"String","companyName":"String","companyID":"String","companyProfilePictureURL":"String"}]
-}
-]
-}
+        "body": {
+              "jobID":"Integer",
+              "industryType":"String",
+              "employmentType":"String",
+              "jobFunctions":"String",
+              "positionName":"String",
+              "professionLevel":"String",
+              "companyID":"Number",
+              "companyName":"String",
+              "companyLocation":"String",
+              "compnayPicture":"URL/String",
+              "relatedConnections":[{"userID":"Number","firstName":"String","lastName":"String","currentPostion":"String","profilePictureURL":"String"}],
+              "jobBrief":"String",
+              "requiredSkills":["String","String"],
+              "note":"String",
+              "similarJobs":[{"jobID":"Number","positionName":"String","companyName":"String","companyID":"String","companyProfilePictureURL":"String"}]
+          }
+      }
 }

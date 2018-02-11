@@ -1,0 +1,14 @@
+{
+    "title": "POST add CV",
+    "description": "upload CV to your profile",
+    "url": "http://localhost/api/cv",
+    "method": "POST",
+    "request": {
+        "data": {
+            "cvURL": "String",
+        }
+    },
+    "response": {
+        "status_code": "Number"
+    }
+}

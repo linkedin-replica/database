@@ -1,6 +1,6 @@
 {
   "request": {
-    "title": "delete comment",
+    "title": "DELETE comment",
     "description": "delete a comment on a post",
     "url": "http://localhost/api/comment",
     "method": "DELETE",
@@ -11,6 +11,6 @@
       }
   },
   "response": {
-    "code": "Number"
+    "status_code": "Number"
   }
 }

@@ -2,7 +2,7 @@
     "request": {
         "title": "GET notifications",
         "description": "get notifications of a specific user",
-        "url": "http://localhost/api/search/:userID",
+        "url": "http://localhost/api/notifications/:userID",
         "method": "GET",
     },
     "response": {

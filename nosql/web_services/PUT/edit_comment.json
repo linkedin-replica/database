@@ -19,7 +19,7 @@
       "timestamp": "String"
     },
     "response": {
-      "code": "Number"
+      "status_code": "Number"
     }
   }
 }

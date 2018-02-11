@@ -1,15 +1,19 @@
 {
-  "title": "GET bookmarks",
-  "description": "get list of bookmarks",
-  "url": "http://localhost/api/bookmarks",
-  "method": "GET",
-  "request": {},
-  "response": {
-    "status_code": "Number",
-    "postList": [{
-      "post_id" : "Number",
-      "text"    : "String",
-      "timestamp" : "String"
-      }],
+    "request": {
+        "title": "GET bookmarks",
+        "description": "get list of bookmarks",
+        "url": "http://localhost/api/bookmarks",
+        "method": "GET",
+    },
+    "response": {
+        "status_code": "Number",
+        "body": {
+            "postList": [
+                {
+                    "post_id" : "Number",
+                    "text"    : "String",
+                    "timestamp" : "String"
+                }]
+        }
     }
-  }
+}

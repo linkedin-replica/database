@@ -1,7 +1,7 @@
 {
-    "title": "POST create company",
-    "description": "create a company",
-    "url": "http://localhost/api/company/create",
+    "title": "POST create a job",
+    "description": "create a job as a company",
+    "url": "http://localhost/api/createJob",
     "method": "POST",
     "request": {
         "data": {
