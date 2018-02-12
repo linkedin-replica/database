@@ -1,0 +1,14 @@
+{
+  "replyId":"Number",
+  "authorId": "Number",
+  "parentPostId": "Number",
+  "parentCommentId": "Number",
+  "mentions": ["Number"],
+  "likesCount": "Number",
+  "media": {
+    "images": ["String"],
+    "urls": ["String"]
+  },
+  "text": "String",
+  "timestamp": "String"
+}
