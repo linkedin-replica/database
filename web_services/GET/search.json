@@ -1,0 +1,20 @@
+{
+    "request": {
+        "title": "GET search request",
+        "description": "search for a job, people, Content, Companies, Groups or school",
+        "url": "http://localhost/api/search/:name/:location",
+        "method": "GET",
+    },
+    "response": {
+        "status_code": "Number",
+        "body":[
+          {"people":[{"userID":"Number","firstName":"String","lastName":"String","currentPostion":"String","profilePictureURL":"String"}]},
+          {"jobs":[{"jobID":"Number","positionName":"String","companyName":"String","companyID":"String","companyProfilePictureURL":"String"}]},
+          {"content":[{"contentID":"Number","authorID":"Number","media":{"images": ["String"],"videos": ["String"],"urls": ["String"]
+  }}]},
+          {"companies":[{"companyName":"String",
+          "companyID":"Number",
+          "companyProfilePicture":"String"}]},
+        ]
+    }
+}

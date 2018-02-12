@@ -1,0 +1,17 @@
+{
+  "request": {
+    "title": "DELETE reply",
+    "description": "delete a reply on a comment",
+    "url": "http://localhost/api/reply",
+    "method": "DELETE",
+    "data": {
+      "authorId": "Number",
+      "postId": "Number",
+      "commentId":"Number",
+      "replyId":"Number"
+      }
+  },
+  "response": {
+    "status_code": "Number"
+  }
+}

@@ -1,0 +1,14 @@
+{
+    "title": "POST block user",
+    "description": "block user",
+    "url": "http://localhost/api/block-user",
+    "method": "POST",
+    "request": {
+        "data": {
+            "user_id": "Number"
+        }
+    },
+    "response": {
+        "status_code": "201"
+    }
+}

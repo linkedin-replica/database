@@ -1,0 +1,15 @@
+{
+  "request": {
+    "title": "POST like a post",
+    "description": "like a post",
+    "url": "http://localhost/api/like",
+    "method": "POST",
+    "data": {
+      "likerId": "Number",
+      "likedItemId": "Number"
+    }
+  },
+  "response": {
+    "status_code": "Number"
+  }
+}

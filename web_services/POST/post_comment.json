@@ -1,0 +1,21 @@
+{
+  "request": {
+    "title": "POST post comment",
+    "description": "post a comment to a post",
+    "url": "http://localhost/api/comment",
+    "method": "POST",
+    "data": {
+      "authorId": "Number",
+      "postId": "Number",
+      "text": "String",
+      "media": {
+        "images": ["String"],
+        "videos": ["String"],
+        "urls": ["String"]
+      }
+    }
+  },
+  "response": {
+    "status_code": "Number"
+  }
+}

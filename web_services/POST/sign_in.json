@@ -1,0 +1,15 @@
+{
+    "title": "POST sign in",
+    "description": "sign in to your account",
+    "url": "http://localhost/api/signIn",
+    "method": "POST",
+    "request": {
+        "data": {
+            "email": "String",
+            "password": "String",
+        }
+    },
+    "response": {
+        "status_code": "Number"
+    }
+}

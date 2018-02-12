@@ -1,0 +1,19 @@
+{
+    "request": {
+        "title": "GET post",
+        "description": "Get a certain post",
+        "url": "http://localhost/api/posts/:postID",
+        "method": "GET",
+    },
+    "response": {
+        "status_code": "Number",
+        "body": {
+                "authorName": "String",
+                "authorCurrentPostion": "String",
+                "authorProfilePic": "String",
+                "postBody": "String",
+                "commentsCount": "Number",
+                "likesCount": "Number",
+                "timestamp" : "String"
+            }
+}

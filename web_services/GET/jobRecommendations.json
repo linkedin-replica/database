@@ -1,0 +1,19 @@
+{
+    "request": {
+        "title": "GET job recommendations",
+        "description": "get job recommendations based on skills and CV",
+        "url": "http://localhost/api/jobRecommendation/:userID",
+        "method": "GET",
+    },
+    "response": {
+        "status_code": "Number",
+        "body":[
+            {
+                "jobID": "Number",
+                "positionName": "String",
+                "companyName": "String",
+                "companyID": "String",
+                "companyProfilePictureURL": "String"
+            }
+        ]
+}
