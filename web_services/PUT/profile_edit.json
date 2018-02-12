@@ -33,6 +33,6 @@
     },
 
     "response": {
-        "status_code": "number"
+        "status_code": "Number"
     }
 }

@@ -8,7 +8,7 @@
     "response": {
         "status_code": "Number",
         "body": {
-              "jobID":"Integer",
+              "jobID":"Number",
               "industryType":"String",
               "employmentType":"String",
               "jobFunctions":"String",
