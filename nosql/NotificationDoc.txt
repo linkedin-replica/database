@@ -1,0 +1,6 @@
+Notification represents any event triggered by the any user that affects another user. The affected user gets notified by this format
+"notificationText" : "Ahmed has invited you the ABC event",
+"notificationID" : "352148",
+"time" : "25-2-2018 22:10",
+"link" : " event's link",
+"read" : "true"

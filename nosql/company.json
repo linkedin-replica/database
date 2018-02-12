@@ -1,0 +1,20 @@
+{
+  "companyName":"String",
+  "companyID":"Number",
+  "companyProfilePicture":"String",
+  "adminUserName":"String",
+  "adminUserID":"Number",
+  "adminUserIDMongo":"Number",
+  "industryType":"String",
+  "companyLocation":"String",
+  "relatedConnections":[{"userID":"Number","firstName":"String","lastName":"String","currentPostion":"String","profilePictureURL":"String"}],
+  "aboutUs":"String",
+  "website":"String",
+  "yearFounded":"Date",
+  "headquarters":["String"],
+  "companytype":"String",
+  "companySize":"Integer",
+  "specialities":["String"],
+  "posts":[{"postID":"Number","authorID":"Number","media":{"images": ["String"],"videos": ["String"],"urls": ["String"]}}],
+  "jobListings":[{"jobID":"Number","positionName":"String","companyName":"String","companyID":"String","companyProfilePictureURL":"String"}]
+}

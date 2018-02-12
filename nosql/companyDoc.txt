@@ -1,0 +1,21 @@
+The company object represent an object that is created by the admin user.
+the First attribute is the company ID. It references this object in  the SQL Database to guarentee consistency.
+company Name represents the company name.
+companyProfilePicture is url that refrences this picture in the media server.
+adminUserName is the user that created the company profile.
+adminUserID is the user ID that created the company profile.
+adminUserIDMongo is the userID that was created by the nosql database.
+industryType can differ from medical to engineering, managerial etc...
+companyLocation is a string that represents a city and a country.
+companyID is a number that refrences the company in the sql database.
+relatedConnections is list of IDs for corresponding connections working in this compnany.
+recentUpdates is a list of events that this company have just created.
+aboutUs is a text describing a brief about the company.
+website is String of the url for this company website.
+yearFounded is the date this company was founded in .
+headquarters is a list of strings of the heafquarters locations.
+companytype is  string that represents the main industry of this company.
+companySize is an integer that represents how many employees in this company.
+specialities is a list of company specialities.
+posts is list of posts created by this company.
+jobListings is list of jobs offers posted by this company.
