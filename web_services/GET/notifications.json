@@ -9,8 +9,8 @@
         "status_code": "Number",
         "body":[{
 
-          	"notification-text" : "String",
-          	"notification-id" : "Number",
+          	"notificationText" : "String",
+          	"notificationID" : "Number",
           	"time" : "String",
           	"link" : "String",
           	"read" : "boolean"

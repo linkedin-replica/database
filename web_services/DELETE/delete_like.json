@@ -1,6 +1,6 @@
 {
   "request": {
-    "title": "delete like",
+    "title": "DELETE like",
     "description": "delete a like",
     "url": "http://localhost/api/comment",
     "method": "DELETE",
