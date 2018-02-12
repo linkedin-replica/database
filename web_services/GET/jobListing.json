@@ -6,7 +6,7 @@
         "method": "GET",
     },
     "response": {
-        "status_code": "number",
+        "status_code": "Number",
         "body": {
               "jobID":"Integer",
               "industryType":"String",
@@ -17,10 +17,10 @@
               "companyID":"Number",
               "companyName":"String",
               "companyLocation":"String",
-              "compnayPicture":"URL/String",
+              "compnayPicture":"String",
               "relatedConnections":[{"userID":"Number","firstName":"String","lastName":"String","currentPostion":"String","profilePictureURL":"String"}],
               "jobBrief":"String",
-              "requiredSkills":["String","String"],
+              "requiredSkills":["String"],
               "note":"String",
               "similarJobs":[{"jobID":"Number","positionName":"String","companyName":"String","companyID":"String","companyProfilePictureURL":"String"}]
           }

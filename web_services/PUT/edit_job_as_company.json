@@ -5,7 +5,7 @@
         "url": "http://localhost/api/jobs/edit",
         "method": "PUT",
         "data": {
-          "jobID":"Integer",
+          "jobID":"Number",
           "industryType":"String",
           "employmentType":"String",
           "jobFunctions":"String",
@@ -14,7 +14,7 @@
           "companyID":"Number",
           "companyName":"String",
           "companyLocation":"String",
-          "compnayPicture":"URL/String",
+          "compnayPicture":"String",
           "relatedConnections":[{"userID":"Number","firstName":"String","lastName":"String","currentPostion":"String","profilePictureURL":"String"}],
           "jobBrief":"String",
           "requiredSkills":["String"],
@@ -23,6 +23,6 @@
         }
     },
     "response": {
-        "status_code": "number"
+        "status_code": "Number"
     }
 }

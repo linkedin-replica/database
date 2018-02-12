@@ -6,13 +6,13 @@
         "method": "GET",
     },
     "response": {
-        "status_code": "number",
+        "status_code": "Number",
         "body":[{
 
-          	"notification-text" : "string",
-          	"notification-id" : "number",
-          	"time" : "string",
-          	"link" : "string",
+          	"notification-text" : "String",
+          	"notification-id" : "Number",
+          	"time" : "String",
+          	"link" : "String",
           	"read" : "boolean"
 
     }]

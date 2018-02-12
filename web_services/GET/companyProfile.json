@@ -6,11 +6,11 @@
         "method": "GET",
     },
     "response": {
-        "status_code": "number",
+        "status_code": "Number",
         "body":{
             "companyName":"String",
             "companyID":"Number",
-            "companyProfilePicture":"String/URL",
+            "companyProfilePicture":"String",
             "adminUserName":"String",
             "adminUserID":"Number",
             "adminUserIDMongo":"Number",
@@ -18,13 +18,13 @@
             "companyLocation":"String",
             "relatedConnections":[{"userID":"Number","firstName":"String","lastName":"String","currentPostion":"String","profilePictureURL":"String"}],
             "aboutUs":"String",
-            "website":"String/URL",
+            "website":"String",
             "yearFounded":"Date",
-            "headquarters":["String","string","string"],
+            "headquarters":["String"],
             "companytype":"String",
             "companySize":"Integer",
-            "specialities":["String","String","String"],
-            "affiliatedCompanies":[{"companyName":"String","companyID":"Number","companyProfilePicture":"String/URL"}],
+            "specialities":["String"],
+            "affiliatedCompanies":[{"companyName":"String","companyID":"Number","companyProfilePicture":"String"}],
             "posts":[{"postID":"Number","authorID":"Number","media":{"images": ["String"],"videos": ["String"],"urls": ["String"]}}],
             "jobListings":[{"jobID":"Number","positionName":"String","companyName":"String","companyID":"String","companyProfilePictureURL":"String"}]
         }

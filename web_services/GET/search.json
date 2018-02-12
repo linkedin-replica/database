@@ -6,7 +6,7 @@
         "method": "GET",
     },
     "response": {
-        "status_code": "number",
+        "status_code": "Number",
         "body":[
           {"people":[{"userID":"Number","firstName":"String","lastName":"String","currentPostion":"String","profilePictureURL":"String"}]},
           {"jobs":[{"jobID":"Number","positionName":"String","companyName":"String","companyID":"String","companyProfilePictureURL":"String"}]},
@@ -14,7 +14,7 @@
   }}]},
           {"companies":[{"companyName":"String",
           "companyID":"Number",
-          "companyProfilePicture":"String/URL"}]},
+          "companyProfilePicture":"String"}]},
         ]
     }
 }
