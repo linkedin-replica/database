@@ -1,0 +1,15 @@
+{
+    "request": {
+      "title": "POST bookmark post",
+      "description": "add post in my bookmark",
+      "url": "http://localhost/api/bookmark",
+      "method": "POST",
+        "data": {
+            "userId" : "Number",
+            "postId" : "Number"
+        }
+    },
+    "response": {
+        "status_code": "Number"
+    }
+}

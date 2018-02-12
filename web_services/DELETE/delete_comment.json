@@ -1,0 +1,16 @@
+{
+  "request": {
+    "title": "DELETE comment",
+    "description": "delete a comment on a post",
+    "url": "http://localhost/api/comment",
+    "method": "DELETE",
+    "data": {
+      "authorId": "Number",
+      "postId": "Number",
+      "commentId":"Number"
+      }
+  },
+  "response": {
+    "status_code": "Number"
+  }
+}

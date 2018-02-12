@@ -1,0 +1,14 @@
+{
+  "request": {
+    "title": "DELETE job",
+    "description": "delete a job as a company",
+    "url": "http://localhost/api/job",
+    "method": "DELETE",
+    "data": {
+      "jobId": "Number"
+      }
+  },
+  "response": {
+    "status_code": "Number"
+  }
+}

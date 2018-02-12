@@ -1,0 +1,13 @@
+{
+  "request": {
+    "title": "DELETE CV",
+    "description": "remove CV from your profile",
+    "url": "http://localhost/api/cv",
+    "method": "DELETE",
+    "data": {
+      }
+  },
+  "response": {
+    "status_code": "Number"
+  }
+}

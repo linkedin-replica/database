@@ -1,0 +1,29 @@
+{
+  "request": {
+    "title": "POST post",
+    "description": "post a post",
+    "url": "http://localhost/api/post",
+    "method": "POST",
+    "data": {
+      "authorId": "Number",
+      "type": "String",
+      "isCompanyPost": "Boolean",
+      "company":{
+        "companyId": "Number",
+        "isPrior": "Boolean"
+      },
+      "privacy": "String",
+      "text": "String",
+      "hashtags": ["String"],
+      "mentions": ["Number"],
+      "media": {
+        "images": ["String"],
+        "videos": ["String"],
+        "urls": ["String"]
+      }
+    }
+  },
+  "response": {
+    "status_code": "Number"
+  }
+}

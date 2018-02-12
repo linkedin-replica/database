@@ -1,0 +1,32 @@
+{
+    "request": {
+        "title": "GET saved and applied jobs",
+        "description": "get a list of jobs saved and/or applied to by the user",
+        "url": "http://localhost/api/myJobs/:userID",
+        "method": "GET",
+    },
+    "response": {
+        "status_code": "Number",
+        "body": {
+                "savedJobs": [
+                    {
+                        "jobID": "Number",
+                        "positionName": "String",
+                        "companyName": "String",
+                        "companyID": "String",
+                        "companyProfilePictureURL": "String"
+                    }
+                ],
+
+                "appliedJobs": [
+                    {
+                        "jobID": "Number",
+                        "positionName": "String",
+                        "companyName": "String",
+                        "companyID": "String",
+                        "companyProfilePictureURL": "String"
+                    }
+                ]
+            }
+
+}

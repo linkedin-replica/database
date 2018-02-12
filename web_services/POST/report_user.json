@@ -1,0 +1,14 @@
+{
+    "title": "POST report user",
+    "description": "report user",
+    "url": "http://localhost/api/report-user",
+    "method": "POST",
+    "request": {
+        "data": {
+            "user_id": "Number"
+        }
+    },
+    "response": {
+        "status_code": "201"
+    }
+}
