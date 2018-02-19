@@ -1,0 +1,16 @@
+{
+	"id" 			    		: "Number",
+	"firstName"			  : "String",
+	"lastName"   		  : "String",
+	"headline"				: "String",
+  "industry"        : "String",
+	"personalInfo"		: {"phone" : "String", "email": "String", "adress" : "String", "dob": "String"},
+	"numConnections"  : "Number",
+	"numFollowers"		: "Number",
+	"summary"					: "String",
+	"positions"				: {"title" : "String", "summary" : "String", "start-date" : "String", "end-date" : "String", "is-current" : "Boolean", "company" : {"id" : "String", "name" : "String"}},
+	"pictureUrl"			: "String",
+	"cvUrl"						: "String",
+	"skills"					: ["String"],
+	"friendsList"		: [{"id" : "Number", "first-name": "String", "last-name":"String", "picture-url":"String"}]
+}
