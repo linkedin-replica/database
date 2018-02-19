@@ -1,0 +1,29 @@
+{
+    "request": {
+        "title": "PUT edit job",
+        "description": "edit job as a company",
+        "url": "http://localhost/api/job",
+        "method": "PUT",
+        "data": {
+            "jobID": "Integer",
+            "industryType": "String",
+            "employmentType": "String",
+            "jobFunctions": "String",
+            "positionName": "String",
+            "professionLevel": "String",
+            "companyID": "Number",
+            "companyName": "String",
+            "companyLocation": "String",
+            "compnayPicture": "URL/String",
+            "relatedConnections": [{},{}],
+            "jobBrief": "String",
+            "requiredSkills": ["String","String"],
+            "note": "String",
+            "similarJobs":[{},{},{}]
+       }
+    },
+
+    "response": {
+        "status_code": "number"
+    }
+}

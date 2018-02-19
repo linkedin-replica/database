@@ -6,7 +6,7 @@
   "company":{
     "companyId": "Number",
     "isPrior": "Boolean"
-  },  
+  },
   "privacy": "String",
   "text": "String",
   "hashtags": ["String"],
@@ -19,6 +19,6 @@
   },
   "commentsCount": "Number",
   "shares": ["Number"],
-  "timestamp": "String"
-
+  "timestamp": "String",
+  "isArticle": "Boolean"
 }
