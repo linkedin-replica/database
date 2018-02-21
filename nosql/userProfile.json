@@ -4,13 +4,15 @@
   "lastName": "String",
   "headline": "String",
   "industry": "String",
-  "personalInfo": {"phone" : "String", "email": "String", "adress" : "String", "dob": "String"},
+  "personalInfo": {"phone" : "String", "email": "String", "location" : {"locationName": "String", "code": "Number"}, "dob": "String"},
   "numConnections": "Number",
   "numFollowers": "Number",
   "summary": "String",
-  "positions": {"title" : "String", "summary" : "String", "start-date" : "String", "end-date" : "String", "is-current" : "Boolean", "company" : {"id" : "String", "name" : "String"}},
+  "positions": {"title" : "String", "summary" : "String", "startDate" : "String", "endDate" : "String", "is-current" : "Boolean", "company" : {"id" : "String", "name" : "String"}},
+  "education": [{"schoolName": "String", "fieldOfStudy":"String", "startDate":"String", "endDate":"String", "degree":"String"}],
   "pictureUrl": "String",
   "cvUrl": "String",
+  "website": "String",
   "skills": ["String"],
   "friendsList": [{"id" : "Number", "first-name": "String", "last-name":"String", "picture-url":"String"}]
 }
