@@ -4,16 +4,56 @@
   "lastName": "String",
   "headline": "String",
   "industry": "String",
-  "personalInfo": {"phone" : "String", "email": "String", "location" : {"locationName": "String", "code": "Number"}, "dob": "String"},
+  "personalInfo": {
+    "phone": "String",
+    "email": "String",
+    "location": {
+      "locationName": "String",
+      "code": "Number"
+    },
+    "dob": "String"
+  },
   "numConnections": "Number",
   "numFollowers": "Number",
   "summary": "String",
-  "positions": {"title" : "String", "summary" : "String", "startDate" : "String", "endDate" : "String", "is-current" : "Boolean", "company" : {"id" : "String", "name" : "String"}},
-  "education": [{"schoolName": "String", "fieldOfStudy":"String", "startDate":"String", "endDate":"String", "degree":"String"}],
+  "positions": {
+    "title": "String",
+    "summary": "String",
+    "startDate": "String",
+    "endDate": "String",
+    "is-current": "Boolean",
+    "company": {
+      "id": "String",
+      "name": "String"
+    }
+  },
+  "education": [
+    {
+      "schoolName": "String",
+      "fieldOfStudy": "String",
+      "startDate": "String",
+      "endDate": "String",
+      "degree": "String"
+    }
+  ],
   "imageUrl": "String",
   "cvUrl": "String",
   "website": "String",
-  "skills": ["String"],
-  "friendsList": [{"userId" : "Number"}],
-  "bookmarkedPosts" :[{"postId": "Number"}]
+  "skills": [
+    "String"
+  ],
+  "friendsList": [
+    {
+      "userId": "Number",
+      "firstName": "String",
+      "lastName": "String",
+      "imageURL": "String",
+      "headline": "String"
+    }
+  ],
+  "bookmarkedPosts": [
+    {
+      "postId": "Number"
+    }
+  ]
 }
