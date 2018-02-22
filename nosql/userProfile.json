@@ -1,5 +1,5 @@
 {
-  "id": "Number",
+  "userId": "Number",
   "firstName": "String",
   "lastName": "String",
   "headline": "String",
@@ -10,9 +10,10 @@
   "summary": "String",
   "positions": {"title" : "String", "summary" : "String", "startDate" : "String", "endDate" : "String", "is-current" : "Boolean", "company" : {"id" : "String", "name" : "String"}},
   "education": [{"schoolName": "String", "fieldOfStudy":"String", "startDate":"String", "endDate":"String", "degree":"String"}],
-  "pictureUrl": "String",
+  "imageUrl": "String",
   "cvUrl": "String",
   "website": "String",
   "skills": ["String"],
-  "friendsList": [{"id" : "Number", "first-name": "String", "last-name":"String", "picture-url":"String"}]
+  "friendsList": [{"userId" : "Number"}],
+  "bookmarkedPosts" :[{"postId": "Number"}]
 }
