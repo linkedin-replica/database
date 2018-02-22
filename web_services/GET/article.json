@@ -16,4 +16,5 @@
                 "likesCount": "Number",
                 "timestamp" : "String"
             }
+        }
 }
