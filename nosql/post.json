@@ -20,5 +20,6 @@
   "commentsCount": "Number",
   "shares": ["Number"],
   "timestamp": "String",
-  "isArticle": "Boolean"
+  "isArticle": "Boolean",
+  "headline": "String"
 }
