@@ -10,7 +10,7 @@
         "body":[{
 
           	"notificationText" : "String",
-          	"notificationID" : "Number",
+          	"notificationID" : "String",
           	"time" : "String",
           	"link" : "String",
           	"read" : "boolean"

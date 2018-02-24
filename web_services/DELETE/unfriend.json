@@ -5,7 +5,7 @@
     "url": "http://localhost/api/unfriend",
     "method": "DELETE",
     "data": {
-      "userId": "Number"
+      "userId": "String"
       }
   },
   "response": {

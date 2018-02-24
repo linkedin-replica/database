@@ -5,9 +5,9 @@
     "url": "http://localhost/api/comment",
     "method": "DELETE",
     "data": {
-      "authorId": "Number",
-      "postId": "Number",
-      "commentId":"Number",
+      "authorId": "String",
+      "postId": "String",
+      "commentId":"String",
       "type": "String"
       }
   },

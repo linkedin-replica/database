@@ -5,10 +5,10 @@
     "url": "http://localhost/api/reply",
     "method": "DELETE",
     "data": {
-      "authorId": "Number",
-      "postId": "Number",
-      "commentId":"Number",
-      "replyId":"Number"
+      "authorId": "String",
+      "postId": "String",
+      "commentId":"String",
+      "replyId":"String"
       }
   },
   "response": {

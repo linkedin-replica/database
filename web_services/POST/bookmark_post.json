@@ -5,8 +5,8 @@
       "url": "http://localhost/api/bookmark",
       "method": "POST",
         "data": {
-            "userId" : "Number",
-            "postId" : "Number"
+            "userId" : "String",
+            "postId" : "String"
         }
     },
     "response": {

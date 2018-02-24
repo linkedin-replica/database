@@ -5,7 +5,7 @@
         "url": "http://localhost/api/edit-profile",
         "method": "PUT",
         "data":{
-	        "id": "Number",
+	        "id": "String",
 	        "first-name": "String",
 	        "last-name": "String",
             "maiden-name": "String",
@@ -24,7 +24,7 @@
              }],
 	        "picture-url": "String",
 	        "friends-list": [{
-                "id": "Number",
+                "id": "String",
                 "first-name": "String",
                 "last-name": "String",
                 "picture-url": "String"

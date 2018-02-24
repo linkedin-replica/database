@@ -8,12 +8,12 @@
     "response": {
         "status_code": "Number",
         "body":[
-          {"people":[{"userID":"Number","firstName":"String","lastName":"String","currentPostion":"String","profilePictureURL":"String"}]},
-          {"jobs":[{"jobID":"Number","positionName":"String","companyName":"String","companyID":"String","companyProfilePictureURL":"String"}]},
-          {"content":[{"contentID":"Number","authorID":"Number","media":{"images": ["String"],"videos": ["String"],"urls": ["String"]
+          {"people":[{"userID":"String","firstName":"String","lastName":"String","currentPostion":"String","profilePictureURL":"String"}]},
+          {"jobs":[{"jobID":"String","positionName":"String","companyName":"String","companyID":"String","companyProfilePictureURL":"String"}]},
+          {"content":[{"contentID":"String","authorID":"String","media":{"images": ["String"],"videos": ["String"],"urls": ["String"]
   }}]},
           {"companies":[{"companyName":"String",
-          "companyID":"Number",
+          "companyID":"String",
           "companyProfilePicture":"String"}]},
         ]
     }

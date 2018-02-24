@@ -5,7 +5,7 @@
     "method": "POST",
     "request": {
         "data": {
-            "user_id": "Number"
+            "user_id": "String"
         }
     },
     "response": {

@@ -8,21 +8,21 @@
     "response": {
         "status_code": "Number",
         "body": {
-              "jobID":"Number",
+              "jobID":"String",
               "industryType":"String",
               "employmentType":"String",
               "jobFunctions":"String",
               "positionName":"String",
               "professionLevel":"String",
-              "companyID":"Number",
+              "companyID":"String",
               "companyName":"String",
               "companyLocation":"String",
               "compnayPicture":"String",
-              "relatedConnections":[{"userID":"Number","firstName":"String","lastName":"String","currentPostion":"String","profilePictureURL":"String"}],
+              "relatedConnections":[{"userID":"String","firstName":"String","lastName":"String","currentPostion":"String","profilePictureURL":"String"}],
               "jobBrief":"String",
               "requiredSkills":["String"],
               "note":"String",
-              "similarJobs":[{"jobID":"Number","positionName":"String","companyName":"String","companyID":"String","companyProfilePictureURL":"String"}]
+              "similarJobs":[{"jobID":"String","positionName":"String","companyName":"String","companyID":"String","companyProfilePictureURL":"String"}]
           }
       }
 }

@@ -10,7 +10,7 @@
         "body": {
                 "savedJobs": [
                     {
-                        "jobID": "Number",
+                        "jobID": "String",
                         "positionName": "String",
                         "companyName": "String",
                         "companyID": "String",
@@ -20,7 +20,7 @@
 
                 "appliedJobs": [
                     {
-                        "jobID": "Number",
+                        "jobID": "String",
                         "positionName": "String",
                         "companyName": "String",
                         "companyID": "String",

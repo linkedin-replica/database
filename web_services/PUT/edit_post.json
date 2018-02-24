@@ -5,12 +5,12 @@
     "url": "http://localhost/api/post",
     "method": "PUT",
     "data": {
-      "postId": "Number",
-      "authorId": "Number",
+      "postId": "String",
+      "authorId": "String",
       "type": "String",
       "isCompanyPost": "Boolean",
       "company":{
-        "companyId": "Number",
+        "companyId": "String",
         "isPrior": "Boolean"
       },
       "privacy": "String",
