@@ -8,10 +8,12 @@
     "phone": "String",
     "email": "String",
     "location": {
-      "locationName": "String",
+      "address": "String",
+      "country": "String",
       "code": "Number"
     },
-    "dob": "String"
+    "dob": "String",
+    "website": "String"
   },
   "numConnections": "Number",
   "numFollowers": "Number",
@@ -40,7 +42,6 @@
   ],
   "imageUrl": "String",
   "cvUrl": "String",
-  "website": "String",
   "skills": [
     "String"
   ],
