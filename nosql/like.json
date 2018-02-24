@@ -4,7 +4,8 @@
   "likedCommentId": "String",
   "likedReplyId": "String",
   "likerId": "String",
-  "username": "String",
+  "firstName": "String",
+  "lastName":"String",
   "headline": "String", 
   "imageUrl": "String"
 }
