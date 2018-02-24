@@ -1,7 +1,9 @@
 {
-  "likeId": "Number",
-  "likedItemId": "Number",
-  "likerId": "Number",
+  "likeId": "String",
+  "likedPostId": "String",
+  "likedCommentId": "String",
+  "likedReplyId": "String",
+  "likerId": "String",
   "username": "String",
   "headline": "String", 
   "imageUrl": "String"
