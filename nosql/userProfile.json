@@ -1,5 +1,5 @@
 {
-  "userId": "Number",
+  "userId": "String",
   "firstName": "String",
   "lastName": "String",
   "headline": "String",
@@ -16,17 +16,19 @@
   "numConnections": "Number",
   "numFollowers": "Number",
   "summary": "String",
-  "positions": {
-    "title": "String",
-    "summary": "String",
-    "startDate": "String",
-    "endDate": "String",
-    "is-current": "Boolean",
-    "company": {
-      "id": "String",
-      "name": "String"
+  "positions": [
+    {
+      "title": "String",
+      "summary": "String",
+      "startDate": "String",
+      "endDate": "String",
+      "isCurrent": "Boolean",
+      "company": {
+        "companyName": "String",
+        "companyID": "String"
+      }
     }
-  },
+  ],
   "education": [
     {
       "schoolName": "String",
@@ -44,7 +46,7 @@
   ],
   "friendsList": [
     {
-      "userId": "Number",
+      "userId": "String",
       "firstName": "String",
       "lastName": "String",
       "imageURL": "String",
@@ -53,7 +55,7 @@
   ],
   "bookmarkedPosts": [
     {
-      "postId": "Number"
+      "postId": "String"
     }
   ]
 }
