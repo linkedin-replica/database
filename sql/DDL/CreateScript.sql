@@ -86,7 +86,7 @@ CREATE TABLE IF NOT EXISTS user_blocked_user(
 CREATE TABLE IF NOT EXISTS user_friends_with_user(
   user1_id int,
   user2_id int,
-  is_accepted bit(1),
+  is_accepted int,
 
   FOREIGN KEY (user1_id) REFERENCES users(id) ON UPDATE CASCADE ON DELETE CASCADE ,
   FOREIGN KEY (user2_id) REFERENCES users(id) ON UPDATE CASCADE ON DELETE CASCADE ,
