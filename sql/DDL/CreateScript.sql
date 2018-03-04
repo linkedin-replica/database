@@ -83,6 +83,7 @@ CREATE TABLE IF NOT EXISTS user_blocked_user(
   PRIMARY KEY (blocking_user_id, blocked_user_id)
 );
 
+-- is_accepted value 0 means user1 added user2, value 1 means user2 added user1, and value 2 means user1 and user2 are friends
 CREATE TABLE IF NOT EXISTS user_friends_with_user(
   user1_id int,
   user2_id int,

@@ -85,13 +85,12 @@ DROP PROCEDURE IF EXISTS Insert_Blocked_User;
    END //
  DELIMITER ;
 
-
-DROP PROCEDURE IF EXISTS Insert_Added_Friend;
+DROP PROCEDURE IF EXISTS Add_Friend;
   DELIMITER //
- CREATE PROCEDURE Insert_Added_Friend(
+ CREATE PROCEDURE Add_Friend(
  	IN user1_id_val int,
  	IN user2_id_val int,
-  	IN is_accepted_val bit(1)
+  IN is_accepted_val int
  )
    BEGIN
   	INSERT INTO user_friends_with_user (user1_id, user2_id, is_accepted)
