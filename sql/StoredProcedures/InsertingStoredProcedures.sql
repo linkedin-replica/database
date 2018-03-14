@@ -3,7 +3,7 @@
 DROP PROCEDURE IF EXISTS Insert_User;
 DELIMITER //
  CREATE PROCEDURE Insert_User(
-  IN id_val varchar(25),
+  IN id_val varchar(40),
  	IN email_val varchar(50),
  	IN password_val varchar(512)
 )
@@ -17,7 +17,7 @@ DROP PROCEDURE IF EXISTS Insert_Company;
 DELIMITER //
  CREATE PROCEDURE Insert_Company(
  	IN name_val varchar(50),
- 	IN user_id_val varchar(25)
+ 	IN user_id_val varchar(40)
 )
    BEGIN
   	INSERT INTO companies (name, user_id)
@@ -29,7 +29,7 @@ DROP PROCEDURE IF EXISTS Insert_Job;
  DELIMITER //
  CREATE PROCEDURE Insert_Job(
  	IN title_val varchar(50),
- 	IN company_id_val varchar(25)
+ 	IN company_id_val varchar(40)
 )
    BEGIN
   	INSERT INTO jobs (title, company_id)
@@ -40,8 +40,8 @@ DROP PROCEDURE IF EXISTS Insert_Job;
 DROP PROCEDURE IF EXISTS Insert_Job_With_Skill;
   DELIMITER //
  CREATE PROCEDURE Insert_Job_With_Skill(
- 	IN job_id_val varchar(25),
- 	IN skill_id_val varchar(25)
+ 	IN job_id_val varchar(40),
+ 	IN skill_id_val varchar(40)
 )
    BEGIN
   	INSERT INTO job_requires_skill (job_id, skill_id)
@@ -64,8 +64,8 @@ DROP PROCEDURE IF EXISTS Insert_Skill;
 DROP PROCEDURE IF EXISTS Insert_Job_Application;
   DELIMITER //
  CREATE PROCEDURE Insert_Job_Application(
- 	IN user_id_val varchar(25),
- 	IN job_id_val varchar(25),
+ 	IN user_id_val varchar(40),
+ 	IN job_id_val varchar(40),
  	IN status_val tinyint(4)
  )
    BEGIN
@@ -77,8 +77,8 @@ DROP PROCEDURE IF EXISTS Insert_Job_Application;
 DROP PROCEDURE IF EXISTS Insert_Blocked_User;
   DELIMITER //
  CREATE PROCEDURE Insert_Blocked_User(
- 	IN blocking_user_id_val varchar(25),
- 	IN blocked_user_id_val varchar(25)
+ 	IN blocking_user_id_val varchar(40),
+ 	IN blocked_user_id_val varchar(40)
  )
    BEGIN
   	INSERT INTO user_blocked_user (blocking_user_id, blocked_user_id)
@@ -89,8 +89,8 @@ DROP PROCEDURE IF EXISTS Insert_Blocked_User;
 DROP PROCEDURE IF EXISTS Add_Friend;
   DELIMITER //
  CREATE PROCEDURE Add_Friend(
- 	IN user1_id_val varchar(25),
- 	IN user2_id_val varchar(25),
+ 	IN user1_id_val varchar(40),
+ 	IN user2_id_val varchar(40),
   IN is_accepted_val int
  )
    BEGIN
@@ -102,8 +102,8 @@ DROP PROCEDURE IF EXISTS Add_Friend;
 DROP PROCEDURE IF EXISTS Insert_User_With_Skill;
   DELIMITER //
  CREATE PROCEDURE Insert_User_With_Skill(
- 	IN user_id_val varchar(25),
- 	IN skill_id_val varchar(25)
+ 	IN user_id_val varchar(40),
+ 	IN skill_id_val varchar(40)
  )
    BEGIN
   	INSERT INTO user_has_skill (user_id, skill_id)
@@ -114,8 +114,8 @@ DROP PROCEDURE IF EXISTS Insert_User_With_Skill;
 DROP PROCEDURE IF EXISTS Insert_User_Saved_Job;
    DELIMITER //
  CREATE PROCEDURE Insert_User_Saved_Job(
- 	IN user_id_val varchar(25),
- 	IN job_id_val varchar(25)
+ 	IN user_id_val varchar(40),
+ 	IN job_id_val varchar(40)
  )
    BEGIN
   	INSERT INTO user_saved_job (user_id, job_id)
