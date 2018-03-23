@@ -1,3 +1,6 @@
+-- use created database
+USE linkedin;
+
 DROP procedure IF EXISTS `search_for_company`;
 DELIMITER $$
 CREATE PROCEDURE `search_for_company`(name_search varchar(50) )
@@ -41,4 +44,22 @@ CREATE PROCEDURE `view_jobs_for_company`(id_company varchar(40))
   BEGIN
     SELECT * FROM jobs WHERE company_id = id_company;
   END$$
+DELIMITER ;
+
+DROP procedure IF EXISTS `search_for_user`;
+
+DELIMITER $$
+ CREATE PROCEDURE `search_for_user`(user_email varchar(50))
+   BEGIN
+     SELECT * FROM users WHERE email = user_email;
+   END$$
+DELIMITER ;
+
+DROP procedure IF EXISTS `get_user`;
+
+DELIMITER $$
+ CREATE PROCEDURE `get_user`(user_id int)
+   BEGIN
+      SELECT * FROM users WHERE id = user_id;
+   END$$
 DELIMITER ;

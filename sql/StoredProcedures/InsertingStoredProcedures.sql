@@ -1,17 +1,17 @@
 -- create stored procedures for insertions
 
-DROP PROCEDURE IF EXISTS Insert_User;
-DELIMITER //
- CREATE PROCEDURE Insert_User(
-  IN id_val varchar(40),
+DROP PROCEDURE IF EXISTS `insert_user`;
+DELIMITER $$
+ CREATE PROCEDURE `insert_user`(
  	IN email_val varchar(50),
- 	IN password_val varchar(512)
+ 	IN password_val varchar(512),
+  IN id_val varchar(40)
 )
    BEGIN
   	INSERT INTO users (id, email, password)
 	VALUES (id_val, email_val, password_val);
-   END //
- DELIMITER ;
+   END $$
+DELIMITER ;
 
 DROP PROCEDURE IF EXISTS Insert_Company;
 DELIMITER //
