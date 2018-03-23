@@ -37,14 +37,22 @@ CREATE PROCEDURE `delete_skill`(id_skill varchar(40))
   END$$
 DELIMITER ;
 
+DROP PROCEDURE IF EXISTS `delete_users`;
+
+DELIMITER $$
+ CREATE PROCEDURE `delete_users`()
+   BEGIN
+     DELETE FROM users;
+   END$$
+DELIMITER ;
 
 DROP PROCEDURE IF EXISTS `delete_user`;
 
 DELIMITER $$
-CREATE PROCEDURE `delete_user`(id_user varchar(40))
-  BEGIN
-    DELETE FROM users WHERE id = id_user;
-  END$$
+ CREATE PROCEDURE `delete_user`(user_email varchar(50))
+    BEGIN
+      DELETE FROM users WHERE email = user_email;
+    END$$
 DELIMITER ;
 
 DROP PROCEDURE IF EXISTS `delete_user_apply_for_job`;
