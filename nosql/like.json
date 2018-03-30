@@ -6,6 +6,5 @@
   "likerId": "String",
   "firstName": "String",
   "lastName":"String",
-  "headline": "String",
   "imageUrl": "String"
 }
