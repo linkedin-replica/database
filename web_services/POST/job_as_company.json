@@ -13,7 +13,7 @@
             "companyID":"Number",
             "companyName":"String",
             "companyLocation":"String",
-            "compnayPicture":"URL/String",
+            "companyPicture":"URL/String",
             "jobBrief":"String",
             "requiredSkills":["String"],
             "note":"String",

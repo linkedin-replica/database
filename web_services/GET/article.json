@@ -1,0 +1,20 @@
+{
+    "request": {
+        "title": "GET post",
+        "description": "Get a certain article",
+        "url": "http://localhost/api/articles/:articleID",
+        "method": "GET",
+    },
+    "response": {
+        "status_code": "Number",
+        "body": {
+                "authorName": "String",
+                "authorCurrentPostion": "String",
+                "authorProfilePic": "String",
+                "postBody": "String",
+                "commentsCount": "Number",
+                "likesCount": "Number",
+                "timestamp" : "String"
+            }
+        }
+}

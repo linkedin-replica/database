@@ -17,7 +17,7 @@
               "companyID":"Number",
               "companyName":"String",
               "companyLocation":"String",
-              "compnayPicture":"String",
+              "companyPicture":"String",
               "relatedConnections":[{"userID":"Number","firstName":"String","lastName":"String","currentPostion":"String","profilePictureURL":"String"}],
               "jobBrief":"String",
               "requiredSkills":["String"],

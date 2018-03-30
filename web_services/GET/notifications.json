@@ -7,13 +7,14 @@
     },
     "response": {
         "status_code": "Number",
-        "body":[{
-
-          	"notificationText" : "String",
-          	"notificationID" : "Number",
-          	"time" : "String",
-          	"link" : "String",
-          	"read" : "boolean"
-
-    }]
+        "body": [
+            {
+                "notificationText": "String",
+                "notificationID": "Number",
+                "time": "String",
+                "link": "String",
+                "read": "boolean"
+            }
+        ]
+    }
 }
