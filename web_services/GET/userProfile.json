@@ -1,10 +1,13 @@
 {
     "request": {
-        "title": "PUT edit profile",
-        "description": "edit profile",
-        "url": "http://localhost/api/edit-profile",
-        "method": "PUT",
-        "data":{
+        "title": "GET company profile",
+        "description": "return a company information",
+        "url": "http://localhost/api/company/:companyID",
+        "method": "GET",
+    },
+    "response": {
+        "status_code": "Number",
+        "body":{
             "userId": "String",
             "firstName": "String",
             "lastName": "String",
@@ -66,9 +69,5 @@
               }
             ]
         }
-    },
-
-    "response": {
-        "status_code": "Number"
     }
 }
