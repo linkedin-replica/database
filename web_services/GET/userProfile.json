@@ -1,0 +1,73 @@
+{
+    "request": {
+        "title": "GET company profile",
+        "description": "return a company information",
+        "url": "http://localhost/api/company/:companyID",
+        "method": "GET",
+    },
+    "response": {
+        "status_code": "Number",
+        "body":{
+            "userId": "String",
+            "firstName": "String",
+            "lastName": "String",
+            "headline": "String",
+            "industry": "String",
+            "personalInfo": {
+              "phone": "String",
+              "email": "String",
+              "location": {
+                "address": "String",
+                "country": "String",
+                "code": "Number"
+              },
+              "dob": "String",
+              "website": "String"
+            },
+            "numConnections": "Number",
+            "numFollowers": "Number",
+            "summary": "String",
+            "positions": [
+              {
+                "title": "String",
+                "summary": "String",
+                "startDate": "String",
+                "endDate": "String",
+                "isCurrent": "Boolean",
+                "company": {
+                  "companyName": "String",
+                  "companyID": "String"
+                }
+              }
+            ],
+            "education": [
+              {
+                "schoolName": "String",
+                "fieldOfStudy": "String",
+                "startDate": "String",
+                "endDate": "String",
+                "degree": "String"
+              }
+            ],
+            "imageUrl": "String",
+            "cvUrl": "String",
+            "skills": [
+              "String"
+            ],
+            "friendsList": [
+              {
+                "userId": "String",
+                "firstName": "String",
+                "lastName": "String",
+                "imageURL": "String",
+                "headline": "String"
+              }
+            ],
+            "bookmarkedPosts": [
+              {
+                "postId": "String"
+              }
+            ]
+        }
+    }
+}
