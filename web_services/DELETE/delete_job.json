@@ -5,7 +5,7 @@
     "url": "http://localhost/api/job",
     "method": "DELETE",
     "data": {
-      "jobId": "Number"
+      "jobId": "String"
       }
   },
   "response": {

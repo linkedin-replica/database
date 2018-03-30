@@ -1,10 +1,10 @@
 {
-  "postId": "Number",
-  "authorId": "Number",
+  "postId": "String",
+  "authorId": "String",
   "type": "String",
   "isCompanyPost": "Boolean",
   "company":{
-    "companyId": "Number",
+    "companyId": "String",
     "isPrior": "Boolean"
   },
   "privacy": "String",
@@ -18,8 +18,9 @@
     "urls": ["String"]
   },
   "commentsCount": "Number",
-  "shares": ["Number"],
-  "timestamp": "String",
+  
   "isArticle": "Boolean",
-  "headline": "String"
+  "headline": "String",
+  "shares": [{"userId": "String"}],
+  "timestamp": "String"
 }

@@ -10,7 +10,7 @@
         "body": {
             "postList": [
                 {
-                    "post_id" : "Number",
+                    "post_id" : "String",
                     "text"    : "String",
                     "timestamp" : "String"
                 }]

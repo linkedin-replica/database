@@ -9,7 +9,7 @@
         "status_code": "Number",
         "body":[
             {
-                "jobID": "Number",
+                "jobID": "String",
                 "positionName": "String",
                 "companyName": "String",
                 "companyID": "String",

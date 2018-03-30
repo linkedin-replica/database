@@ -5,9 +5,9 @@
   "method": "POST",
   "request": {
     "data": {
-      "authorId": "Number",
-      "postId": "Number",
-      "commentId": "Number",
+      "authorId": "String",
+      "postId": "String",
+      "commentId": "String",
       "text": "String",
       "media": {
         "images": ["String"],

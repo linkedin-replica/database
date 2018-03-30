@@ -9,14 +9,14 @@
         "status_code": "Number",
         "body":{
             "companyName":"String",
-            "companyID":"Number",
+            "companyID":"String",
             "companyProfilePicture":"String",
             "adminUserName":"String",
-            "adminUserID":"Number",
-            "adminUserIDMongo":"Number",
+            "adminUserID":"String",
+            "adminUserIDMongo":"String",
             "industryType":"String",
             "companyLocation":"String",
-            "relatedConnections":[{"userID":"Number","firstName":"String","lastName":"String","currentPostion":"String","profilePictureURL":"String"}],
+            "relatedConnections":[{"userID":"String","firstName":"String","lastName":"String","currentPostion":"String","profilePictureURL":"String"}],
             "aboutUs":"String",
             "website":"String",
             "yearFounded":"Number",
@@ -24,9 +24,9 @@
             "companytype":"String",
             "companySize":"Number",
             "specialities":["String"],
-            "affiliatedCompanies":[{"companyName":"String","companyID":"Number","companyProfilePicture":"String"}],
-            "posts":[{"postID":"Number","authorID":"Number","media":{"images": ["String"],"videos": ["String"],"urls": ["String"]}}],
-            "jobListings":[{"jobID":"Number","positionName":"String","companyName":"String","companyID":"String","companyProfilePictureURL":"String"}]
+            "affiliatedCompanies":[{"companyName":"String","companyID":"String","companyProfilePicture":"String"}],
+            "posts":[{"postID":"String","authorID":"String","media":{"images": ["String"],"videos": ["String"],"urls": ["String"]}}],
+            "jobListings":[{"jobID":"String","positionName":"String","companyName":"String","companyID":"String","companyProfilePictureURL":"String"}]
         }
     }
 }
