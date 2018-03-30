@@ -1,0 +1,29 @@
+{
+  "request": {
+    "title": "POST article",
+    "description": "post an Article",
+    "url": "http://localhost/api/article",
+    "method": "POST",
+    "data": {
+      "authorId": "Number",
+      "type": "String",
+      "isCompanyPost": "Boolean",
+      "company":{
+        "companyId": "Number",
+        "isPrior": "Boolean"
+      },
+      "privacy": "String",
+      "text": "String",
+      "hashtags": ["String"],
+      "mentions": ["Number"],
+      "media": {
+        "images": ["String"],
+        "videos": ["String"],
+        "urls": ["String"]
+      },
+    }
+  },
+  "response": {
+    "status_code": "Number"
+  }
+}

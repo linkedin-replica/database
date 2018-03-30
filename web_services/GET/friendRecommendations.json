@@ -7,7 +7,7 @@
     },
     "response": {
         "status_code": "Number",
-        "body":[
+        "body": [
             {
                 "userID": "Number",
                 "firstName": "String",
@@ -16,4 +16,5 @@
                 "profilePictureURL": "String"
             }
         ]
+    }
 }
