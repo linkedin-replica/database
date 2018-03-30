@@ -5,6 +5,7 @@
         "url": "http://localhost/api/edit-profile",
         "method": "PUT",
         "data":{
+
             "userId": "String",
             "firstName": "String",
             "lastName": "String",

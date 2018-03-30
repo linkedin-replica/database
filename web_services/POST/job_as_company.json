@@ -10,7 +10,7 @@
             "jobFunctions":"String",
             "positionName":"String",
             "professionLevel":"String",
-            "companyID":"Number",
+            "companyID":"String",
             "companyName":"String",
             "companyLocation":"String",
             "companyPicture":"URL/String",

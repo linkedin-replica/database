@@ -5,9 +5,9 @@
     "url": "http://localhost/api/comment",
     "method": "PUT",
     "data": {
-      "commentId":"Number",
-      "authorId": "Number",
-      "parentPostId": "Number",
+      "commentId":"String",
+      "authorId": "String",
+      "parentPostId": "String",
       "mentions": ["Number"],
       "likesCount": "Number",
       "media": {

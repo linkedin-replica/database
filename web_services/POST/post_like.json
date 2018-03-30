@@ -5,8 +5,8 @@
     "url": "http://localhost/api/like",
     "method": "POST",
     "data": {
-      "likerId": "Number",
-      "likedItemId": "Number"
+      "likerId": "String",
+      "likedItemId": "String"
     }
   },
   "response": {

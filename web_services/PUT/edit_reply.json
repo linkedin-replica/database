@@ -5,10 +5,10 @@
     "url": "http://localhost/api/reply",
     "method": "PUT",
     "data": {
-      "replyId":"Number",
-      "authorId": "Number",
-      "parentPostId": "Number",
-      "parentCommentId": "Number",
+      "replyId":"String",
+      "authorId": "String",
+      "parentPostId": "String",
+      "parentCommentId": "String",
       "mentions": ["Number"],
       "likesCount": "Number",
       "media": {

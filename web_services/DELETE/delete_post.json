@@ -5,8 +5,8 @@
     "url": "http://localhost/api/post",
     "method": "DELETE",
     "data": {
-      "authorId": "Number",
-      "postId":"Number"
+      "authorId": "String",
+      "postId":"String"
     }
   },
   "response": {

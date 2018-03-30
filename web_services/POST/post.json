@@ -5,11 +5,11 @@
     "url": "http://localhost/api/post",
     "method": "POST",
     "data": {
-      "authorId": "Number",
+      "authorId": "String",
       "type": "String",
       "isCompanyPost": "Boolean",
       "company":{
-        "companyId": "Number",
+        "companyId": "String",
         "isPrior": "Boolean"
       },
       "privacy": "String",
