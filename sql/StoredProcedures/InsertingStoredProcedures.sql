@@ -25,16 +25,16 @@ DELIMITER //
    END //
  DELIMITER ;
 
-DROP PROCEDURE IF EXISTS Insert_Job;
  DELIMITER //
- CREATE PROCEDURE Insert_Job(
- 	IN title_val varchar(50),
- 	IN company_id_val varchar(40)
-)
-   BEGIN
-  	INSERT INTO jobs (title, company_id)
-	VALUES (title_val, company_id_val);
-   END //
+	 CREATE PROCEDURE Insert_Job(
+		IN jobId varchar(40),
+	 	IN title_val varchar(50),
+	 	IN company_id_val varchar(40)
+	)
+	   BEGIN
+	  	INSERT INTO jobs (Id ,title, company_id)
+		VALUES (jobId,title_val, company_id_val);
+	   END //
  DELIMITER ;
 
 DROP PROCEDURE IF EXISTS Insert_Job_With_Skill;
