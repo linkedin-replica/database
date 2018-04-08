@@ -13,7 +13,7 @@
                 "firstName": "String",
                 "lastName": "String",
                 "headline": "String",
-                "industry": "String,
+                "industry": "String",
                 "imageURL": "String"
             }
         ]
