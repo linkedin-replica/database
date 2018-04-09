@@ -1,0 +1,11 @@
+{
+  "request": {
+    "title": "DELETE unfriend",
+    "description": "unfriend a person",
+    "url": "api/unfriend/:userId",
+    "method": "DELETE"
+  },
+  "response": {
+    "status_code": "Number"
+  }
+}
