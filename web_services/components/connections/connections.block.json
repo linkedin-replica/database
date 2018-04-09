@@ -1,12 +1,9 @@
 {
-    "title": "POST block user",
-    "description": "block user",
-    "url": "http://localhost/api/block-user",
-    "method": "POST",
-    "request": {
-        "data": {
-            "user_id": "String"
-        }
+    "request":{
+      "title": "POST block user",
+      "description": "block user",
+      "url": "/api/block/:userId",
+      "method": "POST"
     },
     "response": {
         "status_code": "Number"

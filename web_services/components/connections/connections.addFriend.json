@@ -1,12 +1,9 @@
 {
-    "title": "POST add friend",
-    "description": "add user as friend",
-    "url": "http://localhost/api/add-friend",
-    "method": "POST",
-    "request": {
-        "data": {
-            "user_id": "String"
-        }
+    "request":{
+        "title": "POST add friend",
+        "description": "add user as friend",
+        "url": "/api/addFriend/:userId",
+        "method": "POST"
     },
     "response": {
         "status_code": "Number"

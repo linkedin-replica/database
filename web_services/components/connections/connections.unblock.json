@@ -2,11 +2,8 @@
   "request": {
     "title": "DELETE unfriend",
     "description": "unblock a person",
-    "url": "http://localhost/api/unblock",
-    "method": "DELETE",
-    "data": {
-      "userId": "String"
-      }
+    "url": "/api/unblock/:userId",
+    "method": "DELETE"
   },
   "response": {
     "status_code": "Number"
