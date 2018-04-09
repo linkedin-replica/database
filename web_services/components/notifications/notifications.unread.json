@@ -1,8 +1,8 @@
 {
     "request": {
         "title": "GET notifications",
-        "description": "get notifications of the authenticated user",
-        "url": "http://localhost/api/notifications/all",
+        "description": "get unread notifications of the authenticated user",
+        "url": "http://localhost/api/notifications/unread",
         "method": "GET",
     },
     "response": {
