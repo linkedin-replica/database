@@ -2,13 +2,8 @@
   "commentId":"String",
   "authorId": "String",
   "parentPostId": "String",
-  "mentions": ["Number"],
   "likesCount": "Number",
-  "media": {
-    "images": ["String"],
-    "urls": ["String"]
-  },
   "repliesCount": "Number",
   "text": "String",
-  "timestamp": "String"
+  "timestamp": "Number"
 }

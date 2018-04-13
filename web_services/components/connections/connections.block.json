@@ -1,0 +1,11 @@
+{
+    "request":{
+      "title": "POST block user",
+      "description": "block user",
+      "url": "/api/block/:userId",
+      "method": "POST"
+    },
+    "response": {
+        "status_code": "Number"
+    }
+}

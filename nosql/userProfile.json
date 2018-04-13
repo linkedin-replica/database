@@ -2,22 +2,11 @@
   "userId": "String",
   "firstName": "String",
   "lastName": "String",
-  "headline": "String",
-  "industry": "String",
   "personalInfo": {
     "phone": "String",
     "email": "String",
-    "location": {
-      "address": "String",
-      "country": "String",
-      "code": "Number"
-    },
-    "dob": "String",
-    "website": "String"
   },
   "numConnections": "Number",
-  "numFollowers": "Number",
-  "summary": "String",
   "positions": [
     {
       "title": "String",
@@ -27,7 +16,7 @@
       "isCurrent": "Boolean",
       "company": {
         "companyName": "String",
-        "companyID": "String"
+        "companyId": "String"
       }
     }
   ],
@@ -50,8 +39,7 @@
       "userId": "String",
       "firstName": "String",
       "lastName": "String",
-      "imageURL": "String",
-      "headline": "String"
+      "imageURL": "String"
     }
   ],
   "bookmarkedPosts": [
