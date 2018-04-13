@@ -1,0 +1,14 @@
+{
+  "request": {
+    "title": "DELETE post",
+    "description": "delete a post",
+    "url": "http://localhost/api/post",
+    "method": "DELETE",
+    "data": {
+      "postId":"String"
+    }
+  },
+  "response": {
+    "response": "boolean"
+  }
+}

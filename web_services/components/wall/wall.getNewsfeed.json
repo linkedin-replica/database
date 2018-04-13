@@ -1,8 +1,8 @@
 {
     "request": {
-        "title": "GET posts",
-        "description": "Get posts of a certain user",
-        "url": "http://localhost/api/posts/:userId",
+        "title": "GET newsfeed",
+        "description": "Get newsfeed of a certain user",
+        "url": "http://localhost/api/newsfeed/:user:limit:offset",
         "method": "GET",
     },
     "response": {

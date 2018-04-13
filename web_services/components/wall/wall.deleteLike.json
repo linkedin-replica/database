@@ -1,0 +1,14 @@
+{
+  "request": {
+    "title": "DELETE like",
+    "description": "delete a like",
+    "url": "http://localhost/api/comment",
+    "method": "DELETE",
+    "data": {
+      "likeId": "String"
+      }
+  },
+  "response": {
+    "response": "boolean"
+  }
+}

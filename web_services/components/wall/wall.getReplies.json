@@ -1,0 +1,22 @@
+{
+    "request": {
+        "title": "GET replies",
+        "description": "Get replies of a certain comment",
+        "url": "http://localhost/api/reply/:parentCommentId",
+        "method": "GET",
+    },
+    "response": {
+        "status_code": "Number",
+        "body": {
+          "response": [
+              {
+                "replyId": "String",
+                "authorId": "String",
+                "parentPostId": "String",
+                "parentCommentId": "String",
+                "likesCount": "Number",
+                "text": "String",
+                "timestamp": "Number"
+            }]
+      }
+}

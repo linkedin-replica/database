@@ -1,8 +1,8 @@
 {
     "request": {
-        "title": "GET reply's likes",
-        "description": "Get likes of a certain reply",
-        "url": "http://localhost/api/like/:likedReplyId",
+        "title": "GET comment's likes",
+        "description": "Get likes of a certain comment",
+        "url": "http://localhost/api/like/:likedCommentId",
         "method": "GET",
     },
     "response": {

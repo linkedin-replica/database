@@ -1,0 +1,16 @@
+{
+  "request": {
+    "title": "POST post comment",
+    "description": "post a comment to a post",
+    "url": "http://localhost/api/comment",
+    "method": "POST",
+    "data": {
+      "authorId": "String",
+      "parentPostId": "String",
+      "text": "String"
+    }
+  },
+  "response": {
+    "response": "boolean"
+  }
+}
