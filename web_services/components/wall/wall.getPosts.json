@@ -16,10 +16,8 @@
                 "text": "String",
                 "headLine": "String",
                 "likesCount": "Number",
-                "media": {
-                  "images": ["String"],
-                  "videos": ["String"]
-                },
+                "images": ["String"],
+                "videos": ["String"],
                 "commentsCount": "String",
                 "timestamp": "Number",
                 "isArticle": "boolean"
