@@ -1,17 +1,7 @@
 {
-  "jobID":"String",
-  "industryType":"String",
-  "employmentType":"String",
-  "jobFunctions":"String",
+  "jobId":"String",
   "positionName":"String",
-  "professionLevel":"String",
-  "companyID":"String",
-  "companyName":"String",
-  "companyLocation":"String",
-  "compnayPicture":"String",
-  "relatedConnections":[{"userID":"String","firstName":"String","lastName":"String","currentPostion":"String","profilePictureURL":"String"}],
+  "companyId":"String",
   "jobBrief":"String",
   "requiredSkills":["String"],
-  "note":"String",
-  "similarJobs":[{"jobID":"String","positionName":"String","companyName":"String","companyID":"String","companyProfilePictureURL":"String"}]
 }

@@ -2,25 +2,14 @@
   "postId": "String",
   "authorId": "String",
   "type": "String",
-  "isCompanyPost": "Boolean",
-  "company":{
-    "companyId": "String",
-    "isPrior": "Boolean"
-  },
-  "privacy": "String",
   "text": "String",
-  "hashtags": ["String"],
-  "mentions": ["Number"],
   "likesCount": "Number",
   "media": {
     "images": ["String"],
     "videos": ["String"],
-    "urls": ["String"]
   },
   "commentsCount": "Number",
-  
   "isArticle": "Boolean",
   "headline": "String",
-  "shares": [{"userId": "String"}],
-  "timestamp": "String"
+  "timestamp": "Number"
 }

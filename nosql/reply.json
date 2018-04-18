@@ -3,12 +3,7 @@
   "authorId": "String",
   "parentPostId": "String",
   "parentCommentId": "String",
-  "mentions": ["Number"],
   "likesCount": "Number",
-  "media": {
-    "images": ["String"],
-    "urls": ["String"]
-  },
   "text": "String",
-  "timestamp": "String"
+  "timestamp": "Number"
 }

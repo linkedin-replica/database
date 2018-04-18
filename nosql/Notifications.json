@@ -1,15 +1,7 @@
 {
 	"notificationText" : "String",
-	"notificationID" : "String",
-	"time" : "String",
+	"notificationId" : "String",
+	"time" : "Number",
 	"link" : "String",
 	"read" : "boolean"
-}
-
-{
-	"notificationText" : "Ahmed has invited you the ABC event",
-	"notificationID" : "352148",
-	"time" : "25-2-2018 22:10",
-	"link" : " event's link",
-	"read" : "true"
 }
