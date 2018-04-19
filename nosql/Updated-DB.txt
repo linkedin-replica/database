@@ -1,6 +1,6 @@
 JOBS:
 {
-  "jobId": "String" gennerated UUID (jobs microservice)
+  "jobId": "String" generated UUID (jobs microservice)
   "jobTitle": "String"
   "industryType": "String"
   "jobBrief" : "String"
@@ -13,11 +13,12 @@ JOBS:
 
 COMPANY:
 {
-    "companyId": "String", gennerated UUID (edit info microservice)
+    "companyId": "String", generated UUID (edit info microservice)
     "companyName" : "String",
     "userId" : "String",
     "industryType" : "String",
     "profilePictureUrl" : "String",
+    "aboutUs": "String",
     "posts": "Array" (ids)
 
     "posts": "Array" (Post object)
@@ -57,6 +58,7 @@ USER:
     "cvUrl": "String",
     "skills": "Array" (Strings),
     "friendsList": "Array" (ids),
+    "followedCompanies": "Array" (ids)
     "bookmarkedPosts": "Array" (ids)
 
     "positions": "Array" (Position object (has company name and company picture url.))
