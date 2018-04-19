@@ -35,14 +35,55 @@ POSTS:
     "videos": ["String"],
     "commentsCount": "String",
     "timestamp": "Number",
-    "isArticle": "boolean",
+    "isArticle": "bool",
     "isCompanyPost": "boolean",
+    "postLikes": "Array", (Like object)
+    "liked": "bool"
 
-    "authorFirstName": "String"
-    "authorLastName": "String"
+    "authorFName": "String"
     "authorProfilePictureUrl": "String"
     "headLine": "String",
 
+}
+
+COMMENT:
+{
+    "commentId": "String",
+    "authorId": "String",
+    "parentPostId": "String",
+    "likesCount": "number",
+    "repliesCount": "number",
+    "text": "String",
+    "timestamp": "number"
+
+     "authorName": "String"
+     "authorProfilePictureUrl": "String"
+}
+
+REPLIES:
+{
+    "replyId": "String",
+    "authorId": "String",
+    "parentPostId": "String",
+    "parentCommentId": "String",
+    "likesCount": "num",
+    "text": "String",
+    "timestamp": "number"
+
+    "authorName": "String",
+    "authorProfilePictureUrl": "String"
+}
+
+LIKE:
+{
+    "likeId": "String",
+    "likerId": "String",
+    "likedPostId": "String",
+    "likedCommentId": "String",
+    "likedRepliedId": "String",
+
+     "likerName": "String",
+     "likerProfilePictureUrl": "String"
 }
 
 USER:
