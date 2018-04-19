@@ -112,3 +112,13 @@ EDUCATION:
     "endDate": long,
     "isCurrent": boolean
 }
+
+NOTIFICATION:
+{
+  "notificationId": "String",
+  "userId": "String",
+  "text": "String",
+  "link": "String",
+  "read": boolean,
+  "timestamp": long
+}
