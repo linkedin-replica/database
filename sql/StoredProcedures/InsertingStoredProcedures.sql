@@ -1,11 +1,11 @@
 -- create stored procedures for insertions
 
-DROP PROCEDURE IF EXISTS `insert_user`;
+DROP PROCEDURE IF EXISTS Insert_User;
 DELIMITER $$
- CREATE PROCEDURE `insert_user`(
+ CREATE PROCEDURE Insert_User(
+     IN id_val varchar(40)
  	IN email_val varchar(50),
- 	IN password_val varchar(512),
-  IN id_val varchar(40)
+ 	IN password_val varchar(512)
 )
    BEGIN
   	INSERT INTO users (id, email, password)
@@ -16,50 +16,29 @@ DELIMITER ;
 DROP PROCEDURE IF EXISTS Insert_Company;
 DELIMITER //
  CREATE PROCEDURE Insert_Company(
+    IN id_val varchar(50),
  	IN name_val varchar(50),
  	IN user_id_val varchar(40)
 )
    BEGIN
-  	INSERT INTO companies (name, user_id)
-	VALUES (name_val, user_id_val);
+  	INSERT INTO companies (id, name, user_id)
+	VALUES (id_val, name_val, user_id_val);
    END //
  DELIMITER ;
 
+DROP PROCEDURE IF EXISTS Insert_Job;
  DELIMITER //
-	 CREATE PROCEDURE Insert_Job(
-		IN jobId varchar(40),
-	 	IN title_val varchar(50),
-	 	IN company_id_val varchar(40)
-	)
-	   BEGIN
-	  	INSERT INTO jobs (Id ,title, company_id)
-		VALUES (jobId,title_val, company_id_val);
-	   END //
- DELIMITER ;
-
-DROP PROCEDURE IF EXISTS Insert_Job_With_Skill;
-  DELIMITER //
- CREATE PROCEDURE Insert_Job_With_Skill(
- 	IN job_id_val varchar(40),
- 	IN skill_id_val varchar(40)
+ CREATE PROCEDURE Insert_Job(
+     IN id_val varchar(50),
+     IN title_val varchar(50),
+     IN company_id_val varchar(40)
 )
    BEGIN
-  	INSERT INTO job_requires_skill (job_id, skill_id)
-	VALUES (job_id_val, skill_id_val);
+  	INSERT INTO jobs (id, title, company_id)
+	VALUES (id_val, title_val, company_id_val);
    END //
  DELIMITER ;
 
-DROP PROCEDURE IF EXISTS Insert_Skill;
-  DELIMITER //
- CREATE PROCEDURE Insert_Skill(
- 	IN name_val varchar(50),
- 	IN type_val varchar(50)
-)
-   BEGIN
-  	INSERT INTO skills (name, type)
-	VALUES (name_val, type_val);
-   END //
- DELIMITER ;
 
 DROP PROCEDURE IF EXISTS Insert_Job_Application;
   DELIMITER //
@@ -99,17 +78,6 @@ DROP PROCEDURE IF EXISTS Add_Friend;
    END //
  DELIMITER ;
 
-DROP PROCEDURE IF EXISTS Insert_User_With_Skill;
-  DELIMITER //
- CREATE PROCEDURE Insert_User_With_Skill(
- 	IN user_id_val varchar(40),
- 	IN skill_id_val varchar(40)
- )
-   BEGIN
-  	INSERT INTO user_has_skill (user_id, skill_id)
-	VALUES (user_id_val, skill_id_val);
-   END //
- DELIMITER ;
 
 DROP PROCEDURE IF EXISTS Insert_User_Saved_Job;
    DELIMITER //

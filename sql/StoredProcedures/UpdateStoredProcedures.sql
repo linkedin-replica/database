@@ -9,7 +9,7 @@ DELIMITER ;
 
 DROP procedure IF EXISTS `respond_to_applicant`;
 DELIMITER $$
-    CREATE PROCEDURE `respond_to_applicant`( User_id int,  Job_id int, new_status int)
+    CREATE PROCEDURE `respond_to_applicant`( User_id varchar(40),  Job_id varchar(40), new_status int)
            BEGIN
         UPDATE user_applied_for_job j SET j.status = new_status WHERE j.user_id = User_id AND j.job_id = Job_id;
      END$$

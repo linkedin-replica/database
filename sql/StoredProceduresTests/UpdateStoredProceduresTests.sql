@@ -1,1 +1,1 @@
-CALL edit_password (1, 'xjfjhdhjsffe');
+CALL edit_password ("1", 'xjfjhdhjsffe');
