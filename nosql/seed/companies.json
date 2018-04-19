@@ -1,0 +1,34 @@
+let companies_seed = [
+  {
+      "_key": "11",
+      "companyId": "11",
+      "companyName": "Google",
+      "aboutUs": "BLA BLA BLA",
+      "profilePictureUrl":"htttp//Google",
+      "userId":"1",
+      "industryType":"Software",
+      "posts":[]
+  },
+  {
+      "_key": "12",
+      "companyId": "12",
+      "companyName": "Facebook",
+      "aboutUs": "BLA BLA BLA",
+      "profilePictureUrl":"htttp//Facebook",
+      "userId":"2",
+      "industryType":"Software",
+      "posts":["1"]
+  },
+  {
+      "_key": "13",
+      "companyId": "13",
+      "companyName": "Swvl",
+      "aboutUs": "BLA BLA BLA",
+      "profilePictureUrl":"htttp//Swvl",
+      "userId":"3",
+      "industryType":"Software",
+      "posts":[]
+  }
+]
+
+for company in companies_seed insert company in companies
