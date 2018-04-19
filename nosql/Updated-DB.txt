@@ -1,0 +1,63 @@
+JOBS:
+{
+  "jobId": "String" gennerated UUID (jobs microservice)
+  "jobTitle": "String"
+  "industryType": "String"
+  "jobBrief" : "String"
+  "companyId" : "String"
+  "requiredSkills":["String"]
+
+  "companyName": "String" // service model only
+  "companyPicture": "String" // service model only
+}
+
+COMPANY:
+{
+    "companyId": "String", gennerated UUID (edit info microservice)
+    "companyName" : "String",
+    "userId" : "String",
+    "industryType" : "String",
+    "profilePictureUrl" : "String",
+    "posts": "Array" (ids)
+
+    "posts": "Array" (Post object)
+}
+
+POSTS:
+{
+    "authorId": "String",
+    "postId": "String",
+    "type": "String",
+    "text": "String",
+    "headLine": "String",
+    "likesCount": "Number",
+    "images": ["String"],
+    "videos": ["String"],
+    "commentsCount": "String",
+    "timestamp": "Number",
+    "isArticle": "boolean"
+
+    "authorFirstName": "String"
+    "authorLastName": "String"
+    "authorProfilePictureUrl": "String"
+}
+
+USER:
+{
+    "userId": "String",
+    "firstName": "String",
+    "lastName": "String",
+    "headline": "String",
+    "industry": "String",
+    "numConnections": "String",
+    "numFollowers": "String",
+    "positions": "Array" (Position object (has companyId only. sub-query is required to retrieve company name and picture url.)),
+    "education": "Array" (Education object),
+    "profilePictureUrl": "String",
+    "cvUrl": "String",
+    "skills": "Array" (Strings),
+    "friendsList": "Array" (ids),
+    "bookmarkedPosts": "Array" (ids)
+
+    "positions": "Array" (Position object (has company name and company picture url.))
+}
