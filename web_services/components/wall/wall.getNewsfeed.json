@@ -1,0 +1,28 @@
+{
+    "request": {
+        "title": "GET newsfeed",
+        "description": "Get newsfeed of a certain user",
+        "url": "http://localhost/api/newsfeed/:user:limit:offset",
+        "method": "GET",
+    },
+    "response": {
+        "status_code": "Number",
+        "body": {
+          "response": [
+              {
+                "postId": "String",
+                "authorId": "String",
+                "type": "String",
+                "text": "String",
+                "headLine": "String",
+                "likesCount": "Number",
+                "media": {
+                  "images": ["String"],
+                  "videos": ["String"]
+                },
+                "commentsCount": "String",
+                "timestamp": "Number",
+                "isArticle": "boolean"
+            }]
+      }
+}

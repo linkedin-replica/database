@@ -1,0 +1,14 @@
+{
+  "request": {
+    "title": "DELETE bookmark",
+    "description": "delete a bookmark of a post",
+    "url": "http://localhost/api/bookmark",
+    "method": "DELETE",
+    "data": {
+      "bookmarkId":"String"
+      }
+  },
+  "response": {
+    "response": "boolean"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "request": {
+    "title": "POST post",
+    "description": "post a post",
+    "url": "http://localhost/api/post",
+    "method": "POST",
+    "data": {
+      "authorId": "String",
+      "type": "String",
+      "text": "String",
+      "headLine": "String",
+      "images": ["String"],
+      "videos": ["String"],
+      "isArticle": "boolean"
+    }
+  },
+  "response": {
+    "response": "boolean"
+  }
+}

@@ -1,0 +1,26 @@
+{
+    "request": {
+        "title": "GET posts",
+        "description": "Get posts of a certain user",
+        "url": "http://localhost/api/posts/:userId",
+        "method": "GET",
+    },
+    "response": {
+        "status_code": "Number",
+        "body": {
+          "response": [
+              {
+                "postId": "String",
+                "authorId": "String",
+                "type": "String",
+                "text": "String",
+                "headLine": "String",
+                "likesCount": "Number",
+                "images": ["String"],
+                "videos": ["String"],
+                "commentsCount": "String",
+                "timestamp": "Number",
+                "isArticle": "boolean"
+            }]
+      }
+}

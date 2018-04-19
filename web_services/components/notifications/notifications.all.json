@@ -1,0 +1,17 @@
+{
+    "request": {
+        "title": "GET notifications",
+        "description": "get notifications of the authenticated user",
+        "url": "http://localhost/api/notifications/all",
+        "method": "GET",
+    },
+    "response": {
+        "status_code": "Number",
+
+        "body":[{
+          	"notificationText" : "String",
+            "link" : "String",
+          	"timeStamp" : "Long",
+          	"read" : "boolean"
+    }]
+}

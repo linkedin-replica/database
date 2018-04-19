@@ -1,0 +1,23 @@
+{
+    "request": {
+        "title": "GET reply's likes",
+        "description": "Get likes of a certain reply",
+        "url": "http://localhost/api/like/:likedReplyId",
+        "method": "GET",
+    },
+    "response": {
+        "status_code": "Number",
+        "body": {
+          "response": [
+              {
+                "likeId": "String",
+                "likerId": "String",
+                "likedPostId": "String",
+                "likedCommentId": "String",
+                "likedReplyId": "String",
+                "firstName": "String",
+                "lastName": "String",
+                "imageUrl": "String"
+            }]
+      }
+}

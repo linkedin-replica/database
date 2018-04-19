@@ -1,0 +1,17 @@
+{
+    "request": {
+        "title": "GET bookmarks",
+        "description": "get list of bookmarks",
+        "url": "http://localhost/api/bookmarks",
+        "method": "GET",
+    },
+    "response": {
+        "status_code": "Number",
+        "body": {
+            "response": [
+                {
+                    "postId" : "String"
+                }]
+        }
+    }
+}

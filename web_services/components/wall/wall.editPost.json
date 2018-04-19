@@ -1,0 +1,23 @@
+{
+  "request": {
+    "title": "PUT edit post",
+    "description": "edit a post",
+    "url": "http://localhost/api/post",
+    "method": "PUT",
+    "data": {
+      "postId": "String",
+      "authorId": "String",
+      "type": "String",
+      "text": "String",
+      "headLine": "String",
+      "likesCount": "Number",
+      "images": ["String"],
+      "videos": ["String"],
+      "commentsCount": "Number",
+      "isArticle": "boolean"
+    }
+  },
+  "response": {
+    "response": "boolean"
+  }
+}

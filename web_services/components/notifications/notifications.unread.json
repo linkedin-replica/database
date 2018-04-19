@@ -1,0 +1,17 @@
+{
+    "request": {
+        "title": "GET notifications",
+        "description": "get unread notifications of the authenticated user",
+        "url": "http://localhost/api/notifications/unread",
+        "method": "GET",
+    },
+    "response": {
+        "status_code": "Number",
+
+        "body":[{
+          	"notificationText" : "String",
+            "link" : "String",
+          	"timeStamp" : "Long",
+          	"read" : "boolean"
+    }]
+}

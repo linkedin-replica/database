@@ -1,0 +1,11 @@
+{
+    "request": {
+        "title": "Mark notifications as red",
+        "description": "Mark all notifications of the authenticated user as read",
+        "url": "http://localhost/api/notifications/markRead",
+        "method": "GET",
+    },
+    "response": {
+        "status_code": "Number",
+        "body": {}
+}

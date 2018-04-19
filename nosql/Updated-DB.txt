@@ -1,0 +1,124 @@
+JOBS:
+{
+  "jobId": "String" generated UUID (jobs microservice)
+  "jobTitle": "String"
+  "industryType": "String"
+  "jobBrief" : "String"
+  "companyId" : "String"
+  "requiredSkills":["String"]
+
+  "companyName": "String" // service model only
+  "companyPicture": "String" // service model only
+}
+
+COMPANY:
+{
+    "companyId": "String", generated UUID (edit info microservice)
+    "companyName" : "String",
+    "userId" : "String",
+    "industryType" : "String",
+    "profilePictureUrl" : "String",
+    "aboutUs": "String",
+    "posts": "Array" (ids)
+
+    "posts": "Array" (Post object)
+}
+
+POSTS:
+{
+    "authorId": "String",
+    "postId": "String",
+    "text": "String",
+    "images": ["String"],
+    "videos": ["String"],
+    "commentsCount": "Number",
+    "timestamp": "Number",
+    "isArticle": "bool",
+    "isCompanyPost": "boolean",
+    "likers": Array (ids of users)
+    
+    "liked": "bool"
+    "authorName": "String" (AuFirst and last concatenated/ Company Name)
+    "authorProfilePictureUrl": "String"
+    "headline": "String"
+    "likers": Array of tiny user object
+}
+
+COMMENT:
+{
+    "commentId": "String",
+    "authorId": "String",
+    "parentPostId": "String",
+    "repliesCount": "number",
+    "text": "String",
+    "timestamp": "number",
+    "likers": Array (ids of users)
+
+     "authorName": "String"
+     "authorProfilePictureUrl": "String"
+     "likers": Array of tiny user object
+}
+
+REPLIES:
+{
+    "replyId": "String",
+    "authorId": "String",
+    "parentPostId": "String",
+    "parentCommentId": "String",
+    "text": "String",
+    "timestamp": "number"
+    "likers": Array (ids of users)
+
+    "authorName": "String",
+    "authorProfilePictureUrl": "String"
+    "likers": Array of tiny user object
+}
+
+
+USER:
+{
+    "userId": "String",
+    "firstName": "String",
+    "lastName": "String",
+    "headline": "String",
+    "industry": "String",
+    "positions": "Array" (Position object (has companyId only. sub-query is required to retrieve company name and picture url.)),
+    "education": "Array" (Education object),
+    "profilePictureUrl": "String",
+    "cvUrl": "String",
+    "skills": "Array" (Strings),
+    "friendsList": "Array" (ids),
+    "followedCompanies": "Array" (ids)
+    "bookmarkedPosts": "Array" (ids)
+
+    "positions": "Array" (Position object (has company name and company picture url.))
+}
+
+POSITIONS
+{
+    "title": "String",
+    "companyId": "String",
+    "startDate": long,
+    "endDate": long,
+    "isCurrent": boolean,
+}
+
+EDUCATION:
+{
+    "schoolName": "String",
+    "fieldOfStudy": "String",
+    "degree": "String",
+    "startDate": long,
+    "endDate": long,
+    "isCurrent": boolean
+}
+
+NOTIFICATION:
+{
+  "notificationId": "String",
+  "userId": "String",
+  "text": "String",
+  "link": "String",
+  "read": boolean,
+  "timestamp": long
+}

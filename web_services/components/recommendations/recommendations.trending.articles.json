@@ -1,0 +1,22 @@
+{
+    "request": {
+        "title": "GET trending articles",
+        "description": "get trending articles on how many people are talking about it",
+        "url": "/api/recommendations/trending/articles/:userID",
+        "method": "GET"
+    },
+    "response": {
+        "status_code": "Number",
+        "body": [
+            {
+                "postId": "String",
+                "authorId": "String",
+                "title": "String",
+                "authorFirstName": "String",
+                "authorLastName": "String",
+                "miniText": "String",
+                "peopleTalking": "Number"
+            }
+        ]
+    }
+}

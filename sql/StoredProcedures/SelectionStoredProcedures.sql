@@ -19,16 +19,6 @@ CREATE PROCEDURE `search_for_job_by_title`( title_search varchar(50))
 DELIMITER ;
 
 
-
-DROP procedure IF EXISTS `search_for_user_by_skill`;
-DELIMITER $$
-CREATE PROCEDURE `search_for_user_by_skill`(skill_id_in varchar(40))
-BEGIN
-    SELECT * FROM user_has_skill WHERE skill_id = skill_id_in;
-END$$
-DELIMITER ;
-
-
 DROP procedure IF EXISTS `view_applied_jobs`;
 DELIMITER $$
 CREATE PROCEDURE `view_applied_jobs`(id varchar(40))
@@ -58,7 +48,7 @@ DELIMITER ;
 DROP procedure IF EXISTS `get_user`;
 
 DELIMITER $$
- CREATE PROCEDURE `get_user`(user_id int)
+ CREATE PROCEDURE `get_user`(user_id varchar(40))
    BEGIN
       SELECT * FROM users WHERE id = user_id;
    END$$

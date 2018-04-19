@@ -1,0 +1,19 @@
+{
+  "request": {
+    "title": "PUT edit comment",
+    "description": "edit a comment of a certain post",
+    "url": "http://localhost/api/comment",
+    "method": "PUT",
+    "data": {
+      "commentId":"String",
+      "authorId": "String",
+      "parentPostId": "String",
+      "likesCount": "Number",
+      "repliesCount": "Number",
+      "text": "String"
+    },
+    "response": {
+      "response": "boolean"
+    }
+  }
+}
