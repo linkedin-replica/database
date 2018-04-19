@@ -36,7 +36,8 @@ POSTS:
     "videos": ["String"],
     "commentsCount": "String",
     "timestamp": "Number",
-    "isArticle": "boolean"
+    "isArticle": "boolean",
+    "isCompanyPost": "boolean",
 
     "authorFirstName": "String"
     "authorLastName": "String"
