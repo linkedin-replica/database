@@ -28,22 +28,20 @@ POSTS:
 {
     "authorId": "String",
     "postId": "String",
-    "type": "String",
     "text": "String",
-    "likesCount": "Number",
     "images": ["String"],
     "videos": ["String"],
-    "commentsCount": "String",
+    "commentsCount": "Number",
     "timestamp": "Number",
     "isArticle": "bool",
     "isCompanyPost": "boolean",
-    "postLikes": "Array", (Like object)
+    "likers": Array (ids of users)
+    
     "liked": "bool"
-
-    "authorFName": "String"
+    "authorName": "String" (AuFirst and last concatenated/ Company Name)
     "authorProfilePictureUrl": "String"
-    "headLine": "String",
-
+    "headline": "String"
+    "likers": Array of tiny user object
 }
 
 COMMENT:
@@ -54,10 +52,12 @@ COMMENT:
     "likesCount": "number",
     "repliesCount": "number",
     "text": "String",
-    "timestamp": "number"
+    "timestamp": "number",
+    "likers": Array (ids of users)
 
      "authorName": "String"
      "authorProfilePictureUrl": "String"
+     "likers": Array of tiny user object
 }
 
 REPLIES:
@@ -69,22 +69,13 @@ REPLIES:
     "likesCount": "num",
     "text": "String",
     "timestamp": "number"
+    "likers": Array (ids of users)
 
     "authorName": "String",
     "authorProfilePictureUrl": "String"
+    "likers": Array of tiny user object
 }
 
-LIKE:
-{
-    "likeId": "String",
-    "likerId": "String",
-    "likedPostId": "String",
-    "likedCommentId": "String",
-    "likedRepliedId": "String",
-
-     "likerName": "String",
-     "likerProfilePictureUrl": "String"
-}
 
 USER:
 {
