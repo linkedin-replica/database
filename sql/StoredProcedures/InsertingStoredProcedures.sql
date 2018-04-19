@@ -3,7 +3,7 @@
 DROP PROCEDURE IF EXISTS Insert_User;
 DELIMITER $$
  CREATE PROCEDURE Insert_User(
-     IN id_val varchar(40)
+     IN id_val varchar(40),
  	IN email_val varchar(50),
  	IN password_val varchar(512)
 )
@@ -65,9 +65,9 @@ DROP PROCEDURE IF EXISTS Insert_Blocked_User;
    END //
  DELIMITER ;
 
-DROP PROCEDURE IF EXISTS Add_Friend;
+DROP PROCEDURE IF EXISTS Insert_Added_Friend;
   DELIMITER //
- CREATE PROCEDURE Add_Friend(
+ CREATE PROCEDURE Insert_Added_Friend(
  	IN user1_id_val varchar(40),
  	IN user2_id_val varchar(40),
   IN is_accepted_val int
