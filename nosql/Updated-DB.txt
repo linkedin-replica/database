@@ -30,7 +30,6 @@ POSTS:
     "postId": "String",
     "type": "String",
     "text": "String",
-    "headLine": "String",
     "likesCount": "Number",
     "images": ["String"],
     "videos": ["String"],
@@ -41,6 +40,8 @@ POSTS:
     "authorFirstName": "String"
     "authorLastName": "String"
     "authorProfilePictureUrl": "String"
+    "headLine": "String",
+
 }
 
 USER:
@@ -50,8 +51,6 @@ USER:
     "lastName": "String",
     "headline": "String",
     "industry": "String",
-    "numConnections": "String",
-    "numFollowers": "String",
     "positions": "Array" (Position object (has companyId only. sub-query is required to retrieve company name and picture url.)),
     "education": "Array" (Education object),
     "profilePictureUrl": "String",
@@ -62,4 +61,23 @@ USER:
     "bookmarkedPosts": "Array" (ids)
 
     "positions": "Array" (Position object (has company name and company picture url.))
+}
+
+POSITIONS
+{
+    "title": "String",
+    "companyId": "String",
+    "startDate": long,
+    "endDate": long,
+    "isCurrent": boolean,
+}
+
+EDUCATION:
+{
+    "schoolName": "String",
+    "fieldOfStudy": "String",
+    "degree": "String",
+    "startDate": long,
+    "endDate": long,
+    "isCurrent": boolean
 }
