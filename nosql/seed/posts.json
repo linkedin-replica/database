@@ -37,6 +37,34 @@ let posts_seed = [
         "timestamp": 1651334654,
         "isArticle": false,
         "likers": []
+    },
+     {
+        "_key": "4",
+        "authorId": "2",
+        "postId": "4",
+        "isCompanyPost": false,
+        "text": "Another boring article",
+        "images": [],
+        "videos": ["linkedin.com/avideo.com"],
+        "commentsCount": "29",
+        "timestamp": 1651334654,
+        "isArticle": true,
+        "likers": ["1", "2", "3"],
+        "title": "First Article Title"
+    },
+      {
+        "_key": "5",
+        "authorId": "1",
+        "postId": "5",
+        "isCompanyPost": false,
+        "text": "Another boring article",
+        "images": [],
+        "videos": ["linkedin.com/avideo.com"],
+        "commentsCount": "239",
+        "timestamp": 1651334654,
+        "isArticle": true,
+        "likers": ["1", "2"],
+        "title": "Second Article Title"
     }
 ]
 
