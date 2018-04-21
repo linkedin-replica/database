@@ -33,15 +33,15 @@ POSTS:
     "videos": ["String"],
     "commentsCount": "Number",
     "timestamp": "Number",
-    "isArticle": "bool",
+    "isArticle": "bool", (not required in response)
     "isCompanyPost": "boolean",
-    "likers": Array (ids of users)
+    "likers": Array (ids of users) (not required in response)
     
     "liked": "bool"
     "authorName": "String" (AuFirst and last concatenated/ Company Name)
     "authorProfilePictureUrl": "String"
     "headline": "String"
-    "likers": Array of tiny user object
+    "likesCount": Number
 }
 
 COMMENT:
