@@ -1,6 +1,7 @@
 let posts_seed = [
     {
           "authorId": "12",
+          "_key" : "1",
           "postId": "1",
           "isCompanyPost": true,
           "text": "How to calculate LCA with LCM?",
@@ -20,6 +21,7 @@ let posts_seed = [
     },
     {
           "authorId": "12",
+          "_key" : "2",
           "postId": "2",
           "isCompanyPost": true,
           "text": "How to calculate LCA with LCM?",
@@ -39,6 +41,7 @@ let posts_seed = [
     },
     {
           "authorId": "1",
+          "_key" : "3",
           "postId": "3",
           "isCompanyPost": false,
           "text": "This is sooooooooooooo boring",
@@ -56,6 +59,7 @@ let posts_seed = [
     },
      {
           "authorId": "2",
+          "_key" : "4",
           "postId": "4",
           "isCompanyPost": false,
           "text": "Another boring post",
