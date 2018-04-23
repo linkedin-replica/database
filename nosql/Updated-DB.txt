@@ -28,6 +28,7 @@ POSTS:
 {
     "authorId": "String",
     "postId": "String",
+    "title" : "String"
     "text": "String",
     "images": ["String"],
     "videos": ["String"],
