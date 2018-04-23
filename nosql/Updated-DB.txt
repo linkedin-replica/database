@@ -36,13 +36,12 @@ POSTS:
     "timestamp": "Number",
     "isArticle": "bool", (not required in response)
     "isCompanyPost": "boolean",
-    "likers": Array (ids of users) (not required in response)
+    "likers": Array (ids of users)
     
     "liked": "bool"
     "authorName": "String" (AuFirst and last concatenated/ Company Name)
     "authorProfilePictureUrl": "String"
     "headline": "String"
-    "likesCount": Number
 }
 
 COMMENT:
@@ -53,11 +52,11 @@ COMMENT:
     "repliesCount": "number",
     "text": "String",
     "timestamp": "number",
-    "likers": Array (ids of users) (not required in response)
+    "likers": Array (ids of users)
 
      "authorName": "String"
      "authorProfilePictureUrl": "String"
-     "likesCount": "Number"
+     "liked": "boolean"
 }
 
 REPLIES:
@@ -68,11 +67,11 @@ REPLIES:
     "parentCommentId": "String",
     "text": "String",
     "timestamp": "number"
-    "likers": Array (ids of users) (not required in response)
+    "likers": Array (ids of users)
 
     "authorName": "String",
     "authorProfilePictureUrl": "String"
-    "likesCount": "Number"
+    "liked": "boolean"
 }
 
 
