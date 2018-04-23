@@ -53,11 +53,11 @@ COMMENT:
     "repliesCount": "number",
     "text": "String",
     "timestamp": "number",
-    "likers": Array (ids of users)
+    "likers": Array (ids of users) (not required in response)
 
      "authorName": "String"
      "authorProfilePictureUrl": "String"
-     "likers": Array of tiny user object
+     "likesCount": "Number"
 }
 
 REPLIES:
