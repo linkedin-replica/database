@@ -78,6 +78,7 @@ REPLIES:
 USER:
 {
     "userId": "String",
+    "email" : "String",
     "firstName": "String",
     "lastName": "String",
     "headline": "String",
