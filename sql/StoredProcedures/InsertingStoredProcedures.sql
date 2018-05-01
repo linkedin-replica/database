@@ -90,3 +90,51 @@ DROP PROCEDURE IF EXISTS Insert_User_Saved_Job;
 	VALUES (user_id_val, job_id_val);
    END //
  DELIMITER ;
+
+DROP PROCEDURE IF EXISTS Insert_Job;
+ DELIMITER //
+   CREATE PROCEDURE Insert_Job(
+    IN jobId varchar(40),
+    IN title_val varchar(50),
+    IN company_id_val varchar(40)
+  )
+     BEGIN
+      INSERT INTO jobs (Id ,title, company_id)
+    VALUES (jobId,title_val, company_id_val);
+     END //
+ DELIMITER ;
+
+ DROP procedure IF EXISTS Save_Job;
+  DELIMITER $$
+ CREATE PROCEDURE Save_Job(user_id_val varchar(40), job_id varchar(40))
+             BEGIN
+        INSERT INTO user_saved_job (user_id, job_id)
+    VALUES (user_id_val, job_id);
+       END$$
+DELIMITER ;
+
+
+DROP PROCEDURE IF EXISTS user_apply_to_job;
+  DELIMITER $$
+   CREATE PROCEDURE user_apply_to_job(
+       IN user_id varchar(40),
+    IN job_id varchar(40)
+  )
+     BEGIN
+      INSERT INTO user_applied_for_job (user_id, job_id)
+    VALUES (user_id, job_id);
+     END $$
+  DELIMITER ;
+  
+  DROP PROCEDURE IF EXISTS respond_to_applicant;
+  DELIMITER $$
+   CREATE PROCEDURE  respond_to_applicant(
+       IN user_id varchar(40),
+       IN job_id varchar(40),
+       IN status  tinyint
+  )
+     BEGIN
+      INSERT INTO user_applied_for_job (user_id, job_id,status)
+    VALUES (user_id, job_id,status);
+     END $$
+  DELIMITER ;
