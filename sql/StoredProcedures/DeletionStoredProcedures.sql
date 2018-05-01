@@ -80,10 +80,18 @@ DROP PROCEDURE IF EXISTS `delete_user_friend_with_user`;
 DELIMITER $$
 CREATE PROCEDURE `delete_user_friend_with_user`(user1_id_in varchar(40), user2_id_in varchar(40))
   BEGIN
-    DELETE FROM user_friends_with_user WHERE user1_id = user1_id_in AND user2_id = user2_id_in;
+    DELETE FROM user_friends_with_user WHERE (user1_id = user1_id_in AND user2_id = user2_id_in) OR (user1_id = user2_id_in AND user2_id = user1_id_in);
   END$$
 DELIMITER ;
 
+DROP PROCEDURE IF EXISTS `delete_friend_request`;
+
+DELIMITER $$
+CREATE PROCEDURE `delete_friend_request`(user1_id_in varchar(40), user2_id_in varchar(40), is_accepted_val int)
+  BEGIN
+    DELETE FROM user_friends_with_user WHERE user1_id = user1_id_in AND user2_id = user2_id_in AND is_accepted = is_accepted_val;
+  END$$
+DELIMITER ;
 
 DROP PROCEDURE IF EXISTS `delete_user_has_skill`;
 
