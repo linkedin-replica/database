@@ -125,16 +125,4 @@ DROP PROCEDURE IF EXISTS user_apply_to_job;
     VALUES (user_id, job_id);
      END $$
   DELIMITER ;
-  
-  DROP PROCEDURE IF EXISTS respond_to_applicant;
-  DELIMITER $$
-   CREATE PROCEDURE  respond_to_applicant(
-       IN user_id varchar(40),
-       IN job_id varchar(40),
-       IN status  tinyint
-  )
-     BEGIN
-      INSERT INTO user_applied_for_job (user_id, job_id,status)
-    VALUES (user_id, job_id,status);
-     END $$
-  DELIMITER ;
+
