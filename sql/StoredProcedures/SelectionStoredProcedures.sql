@@ -53,3 +53,11 @@ DELIMITER $$
       SELECT * FROM users WHERE id = user_id;
    END$$
 DELIMITER ;
+
+DROP procedure IF EXISTS `Get_Saved_Job`;
+  DELIMITER $$
+ CREATE PROCEDURE `Get_Saved_Job`(user_id varchar(40))
+             BEGIN
+       SELECT *  FROM user_saved_job WHERE user_id = user_id;
+       END$$
+DELIMITER ;
