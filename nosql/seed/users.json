@@ -1,7 +1,7 @@
 let users_seed = [
     {
-        "_key": "1",
-        "userId": "1",
+        "_key": "03bf4eca-512f-431f-b327-eab8b8ba9d36",
+        "userId": "03bf4eca-512f-431f-b327-eab8b8ba9h56",
         "firstName": "Ahmed",
         "lastName": "Mohamed",
         "email" : "ahmed.mohamed@test.com",
@@ -44,8 +44,8 @@ let users_seed = [
         "bookmarkedPosts": ["1", "2", "3"]
     },
     {
-        "_key": "2",
-        "userId": "2",
+        "_key": "03bf4eca-512f-431f-b327-eab8b8ba2d56",
+        "userId": "03bf4eca-512f-431f-b327-eab8b8ba2d56",
         "firstName": "Mostafa",
         "lastName": "Karim",
         "email" : "mostafa.karim@test.com",
@@ -88,8 +88,8 @@ let users_seed = [
         "bookmarkedPosts": ["3"]
     },
     {
-        "_key": "3",
-        "userId": "3",
+        "_key": "03bf4eca-512f-431f-b327-eab8b8ba2d89",
+        "userId": "03bf4eca-512f-431f-b327-eab8b8ba2d89",
         "firstName": "Hatem",
         "lastName": "Morgan",
         "email" : "hatem.morgan@test.com",
@@ -120,8 +120,8 @@ let users_seed = [
         "bookmarkedPosts": []
     },
     {
-        "_key": "4",
-        "userId": "4",
+        "_key": "03bf5hca-512f-431f-b327-eab8b8ba2d89",
+        "userId": "03bf5hca-512f-431f-b327-eab8b8ba2d89",
         "firstName": "Ahmed",
         "lastName": "Soliman",
         "email" : "ahmed.soliman@test.com",
