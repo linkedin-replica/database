@@ -4,6 +4,7 @@ let users_seed = [
         "userId": "1",
         "firstName": "Ahmed",
         "lastName": "Mohamed",
+        "email" : "ahmed.mohamed@test.com",
         "headline": "Software Engineer at Goofle",
         "industry": "Computer Science",
         "positions": [
@@ -47,6 +48,7 @@ let users_seed = [
         "userId": "2",
         "firstName": "Mostafa",
         "lastName": "Karim",
+        "email" : "mostafa.karim@test.com",
         "headline": "Software Engineer at Faceboom",
         "industry": "Computer Science",
         "positions": [
@@ -90,6 +92,7 @@ let users_seed = [
         "userId": "3",
         "firstName": "Hatem",
         "lastName": "Morgan",
+        "email" : "hatem.morgan@test.com",
         "headline": "Software Engineer",
         "industry": "Computer Science",
         "positions": [
@@ -121,6 +124,7 @@ let users_seed = [
         "userId": "4",
         "firstName": "Ahmed",
         "lastName": "Soliman",
+        "email" : "ahmed.soliman@test.com",
         "headline": "Brens el data science",
         "industry": "Computer Science",
         "positions": [
