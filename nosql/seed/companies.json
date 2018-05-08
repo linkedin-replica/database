@@ -3,8 +3,9 @@ let companies_seed = [
       "_key": "11",
       "companyId": "11",
       "companyName": "Google",
+      "companyLocation": "Zürich, Switzerland",
       "aboutUs": "BLA BLA BLA",
-      "profilePictureUrl":"htttp//Google",
+      "profilePictureUrl":"http://static.adweek.com/adweek.com-prod/wp-content/uploads/files/google-logo-ep.jpg",
       "userId":"1",
       "industryType":"Software",
       "posts":[]
@@ -13,8 +14,9 @@ let companies_seed = [
       "_key": "12",
       "companyId": "12",
       "companyName": "Facebook",
+      "companyLocation": "California, USA",
       "aboutUs": "BLA BLA BLA",
-      "profilePictureUrl":"htttp//Facebook",
+      "profilePictureUrl":"https://image.flaticon.com/icons/svg/124/124010.svg",
       "userId":"2",
       "industryType":"Software",
       "posts":["1"]
@@ -23,8 +25,9 @@ let companies_seed = [
       "_key": "13",
       "companyId": "13",
       "companyName": "Swvl",
+      "companyLocation": "Cairo, Egypt",
       "aboutUs": "BLA BLA BLA",
-      "profilePictureUrl":"htttp//Swvl",
+      "profilePictureUrl":"http://identity-mag.com/wp-content/uploads/2017/04/swvl-681x681.png",
       "userId":"3",
       "industryType":"Software",
       "posts":[]
