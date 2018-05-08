@@ -48,3 +48,7 @@ CALL Insert_User("47", 'Mohamed.Yasser@gmail.com', 'ohjzvhzdgbmagyx');
 CALL Insert_User("48", 'Baher.Radwan@yahoo.com', 'datmhtxkx');
 CALL Insert_User("49", 'Mostafa.Anwar@hotmail.com', 'egujafnv');
 CALL Insert_User("50", 'Yara.Ads@yahoo.com', 'wgxsiyikw');
+CALL Insert_User("03bf4eca-512f-431f-b327-eab8b8ba9d36", 'ahmed.mohamed@test.com', '1234');
+CALL Insert_User("03bf4eca-512f-431f-b327-eab8b8ba2d56", 'mostafa.karim@test.com', '1234');
+CALL Insert_User("03bf4eca-512f-431f-b327-eab8b8ba2d89", 'hatem.morgan@test.com', '1234');
+CALL Insert_User("03bf5hca-512f-431f-b327-eab8b8ba2d89", 'ahmed.soliman@test.com', '1234');
